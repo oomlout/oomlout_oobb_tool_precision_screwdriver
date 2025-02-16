@@ -1,4 +1,4 @@
-# Oomlout oobb tool precision screwdriver
+# Oomlout oobb tool precision screwdriver from tool screw driver bit quarter inch drive
 
 
 ## parts
@@ -8,7 +8,27 @@
 ![](precision_screwdriver_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra/3dpr_300.png)  ![](precision_screwdriver_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra/image_300.jpg)
  
 
+### precision_screwdriver_bit_lock_piece_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra
+* link: [/precision_screwdriver_bit_lock_piece_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra](precision_screwdriver_bit_lock_piece_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra)  
+![](precision_screwdriver_bit_lock_piece_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra/3dpr_300.png)  ![](precision_screwdriver_bit_lock_piece_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra/image_300.jpg)
+ 
+
 ### precision_screwdriver_test_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra
 * link: [/precision_screwdriver_test_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra](precision_screwdriver_test_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra)  
 ![](precision_screwdriver_test_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra/3dpr_300.png)  ![](precision_screwdriver_test_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra/image_300.jpg)
+ 
+
+### precision_screwdriver_test_fluting_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra
+* link: [/precision_screwdriver_test_fluting_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra](precision_screwdriver_test_fluting_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra)  
+![](precision_screwdriver_test_fluting_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra/3dpr_300.png)  ![](precision_screwdriver_test_fluting_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra/image_300.jpg)
+ 
+
+### precision_screwdriver_test_knurl_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra
+* link: [/precision_screwdriver_test_knurl_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra](precision_screwdriver_test_knurl_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra)  
+![](precision_screwdriver_test_knurl_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra/3dpr_300.png)  ![](precision_screwdriver_test_knurl_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra/image_300.jpg)
+ 
+
+### precision_screwdriver_test_nut_drop_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra
+* link: [/precision_screwdriver_test_nut_drop_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra](precision_screwdriver_test_nut_drop_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra)  
+![](precision_screwdriver_test_nut_drop_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra/3dpr_300.png)  ![](precision_screwdriver_test_nut_drop_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra/image_300.jpg)
  
