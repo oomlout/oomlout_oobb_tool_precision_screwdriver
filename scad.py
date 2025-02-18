@@ -162,8 +162,8 @@ height_bit_locker = 3
 depth_bit_locker = 14
 
 def get_precision_screwdriver_bit_lock_piece(thing, **kwargs):
-    #return get_precision_screwdriver_bit_lock_piece_keyed_screw(thing, **kwargs)
-    return get_precision_screwdriver_bit_lock_piece_old_1_twist_lock(thing, **kwargs)
+    return get_precision_screwdriver_bit_lock_piece_keyed_screw(thing, **kwargs)
+    #return get_precision_screwdriver_bit_lock_piece_old_1_twist_lock(thing, **kwargs)
 
 
 
@@ -1183,14 +1183,14 @@ def get_precision_screwdriver(thing, **kwargs):
 
     #handle variables
     height_driver = 95
-    radius_main = 10/2
+    radius_main = 12/2
 
     
 
     #hex_top_piece
     depth_top_hex = 9
     radius_top_hex = 13/2 * hex_side_ratio
-    lift_top_hex = 45
+    lift_top_hex = 35
 
     #hex_bottom_piece
     depth_bottom_hex = 6
@@ -1302,11 +1302,11 @@ def get_precision_screwdriver(thing, **kwargs):
         p3["type"] = "p"
         p3["shape"] = f"oobb_cylinder"
         dep = height_driver        
-        p3["depth"] = dep - depth_taper_bottom
+        p3["depth"] = dep - depth_taper_bottom - depth_bottom_hex
         p3["radius"] = radius_main
         pos1 = copy.deepcopy(pos)
         p3["pos"] = pos1
-        pos1[2] += depth_taper_bottom
+        pos1[2] += depth_taper_bottom + depth_bottom_hex
         p3["zz"] = "bottom"
         #p3["m"] = "#"
         if not inside_only:            
@@ -1489,11 +1489,13 @@ def get_precision_screwdriver(thing, **kwargs):
                     oobb_base.append_full(thing,**p3)
 
     #add screw locker
-    if False:
+    if True:
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "negative"        
         p3["shape"] = f"oobb_screw_countersunk"
-        dep = 13
+        
+        dep_screw = 12
+        dep = dep_screw - 4
         p3["depth"] = dep
         p3["radius_name"] = "m3"
         p3["nut"] = True
@@ -1501,7 +1503,7 @@ def get_precision_screwdriver(thing, **kwargs):
         p3["overhang"] = False
         pos1 = copy.deepcopy(pos)
         
-        pos1[0] += dep/2
+        pos1[0] += dep_screw/2
         pos1[1] += 0
         pos1[2] += lift_bottom_hex_big + depth_top_hex - 0.5
         p3["pos"] = pos1
@@ -1510,8 +1512,8 @@ def get_precision_screwdriver(thing, **kwargs):
         #p3["m"] = "#"        
         oobb_base.append_full(thing,**p3)
 
-    #add screw locker clearance
-    if False:
+        #add screw locker clearance
+    
         shift_y = 0
         #shift_y = 30      
         extra = 10  
@@ -1535,8 +1537,8 @@ def get_precision_screwdriver(thing, **kwargs):
         oobb_base.append_full(thing,**p3)
         
             
-    #add lock piece
-    if True:
+    #add lock piece ####pressing down on the bit caused it to pop
+    if False:
         shift_x = 0
 
         #lock piece drop
@@ -1546,8 +1548,10 @@ def get_precision_screwdriver(thing, **kwargs):
         p3["shape"] = f"oobb_cube"
         wid = height_bit_locker + clear
         hei = width_bit_locker + clear
-        dep = height_driver - lift_top_hex - depth_top_hex/2 + depth_bit_locker/2
-        height_locker = dep
+        #dep = height_driver - lift_top_hex - depth_top_hex/2 + depth_bit_locker/2
+        dep = 50
+        height_locker = dep        
+        
         size = [wid, hei, dep]
         p3["size"] = size
         pos1 = copy.deepcopy(pos)
