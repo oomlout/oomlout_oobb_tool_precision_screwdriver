@@ -42,2830 +42,2688 @@ thing:
   classification: oobb
   color: ''
   components:
-  - - depth: 10
+  - - depth: 92
       extra: hex_head_2_5_mm
-      h: 10
+      h: 92
       height: 1
       inclusion: laser
       pos: &id001
       - 0
       - 0
-      - 85.0
-      r: 9.0
-      radius: 9.0
-      rot: &id002
-      - 0
-      - 0
-      - 0
+      - 3.0
+      r: 5.0
+      radius: 5.0
       shape: cylinder
       type: positive
       width: 1
-    - depth: 10
+    - depth: 92
       extra: hex_head_2_5_mm
-      h: 10
+      h: 92
       height: 1
       inclusion: 3dpr
       pos: *id001
-      r: 9.0
-      rot: *id002
+      r: 5.0
       shape: cylinder
       type: positive
       width: 1
-    - depth: 10
+    - depth: 92
       extra: hex_head_2_5_mm
-      h: 10
+      h: 92
       height: 1
       inclusion: 'true'
       pos: *id001
-      r: 9.0
-      radius: 9.0
-      rot: *id002
+      r: 5.0
+      radius: 5.0
       shape: cylinder
       type: positive
       width: 1
-  - - objects:
-      - extra: hex_head_2_5_mm
-        extra_clearance: -0.6
-        height: 5
-        inclusion: laser
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - - - - - - extra: hex_head_2_5_mm
-                  extra_clearance: -0.6
-                  height: 1
-                  inclusion: 3dpr
-                  m: '#'
-                  pos:
-                  - -2.875
-                  - -5.0
-                  - -5.3
-                  rotX: 0
-                  rotY: 0
-                  rotZ: 0
-                  shape: cube
-                  size:
-                  - 5.75
-                  - 10
-                  - 0.3
-                  type: positive
-                  width: 1
-          - - - - extra: hex_head_2_5_mm
-                  extra_clearance: -0.6
-                  height: 1
-                  inclusion: 3dpr
-                  m: '#'
-                  pos:
-                  - -2.875
-                  - -2.875
-                  - -5.6
-                  rotX: 0
-                  rotY: 0
-                  rotZ: 0
-                  shape: cube
-                  size:
-                  - 5.75
-                  - 5.75
-                  - 0.3
-                  type: positive
-                  width: 1
-      - - - - - - extra: hex_head_2_5_mm
-                  extra_clearance: -0.6
-                  height: 1
-                  inclusion: 3dpr
-                  m: '#'
-                  pos:
-                  - -2.875
-                  - -5.0
-                  - 0
-                  rotX: 0
-                  rotY: 0
-                  rotZ: 0
-                  shape: cube
-                  size:
-                  - 5.75
-                  - 10
-                  - 0.3
-                  type: positive
-                  width: 1
-          - - - - extra: hex_head_2_5_mm
-                  extra_clearance: -0.6
-                  height: 1
-                  inclusion: 3dpr
-                  m: '#'
-                  pos:
-                  - -2.875
-                  - -2.875
-                  - 0.3
-                  rotX: 0
-                  rotY: 0
-                  rotZ: 0
-                  shape: cube
-                  size:
-                  - 5.75
-                  - 5.75
-                  - 0.3
-                  type: positive
-                  width: 1
-      - extra: hex_head_2_5_mm
-        extra_clearance: -0.6
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - - - - - - extra: hex_head_2_5_mm
-                  extra_clearance: -0.6
-                  height: 1
-                  inclusion: 3dpr
-                  m: '#'
-                  pos:
-                  - -2.875
-                  - -5.0
-                  - -5.3
-                  rotX: 0
-                  rotY: 0
-                  rotZ: 0
-                  shape: cube
-                  size:
-                  - 5.75
-                  - 10
-                  - 0.3
-                  type: positive
-                  width: 1
-          - - - - extra: hex_head_2_5_mm
-                  extra_clearance: -0.6
-                  height: 1
-                  inclusion: 3dpr
-                  m: '#'
-                  pos:
-                  - -2.875
-                  - -2.875
-                  - -5.6
-                  rotX: 0
-                  rotY: 0
-                  rotZ: 0
-                  shape: cube
-                  size:
-                  - 5.75
-                  - 5.75
-                  - 0.3
-                  type: positive
-                  width: 1
-      - - - - - - extra: hex_head_2_5_mm
-                  extra_clearance: -0.6
-                  height: 1
-                  inclusion: 3dpr
-                  m: '#'
-                  pos:
-                  - -2.875
-                  - -5.0
-                  - 0
-                  rotX: 0
-                  rotY: 0
-                  rotZ: 0
-                  shape: cube
-                  size:
-                  - 5.75
-                  - 10
-                  - 0.3
-                  type: positive
-                  width: 1
-          - - - - extra: hex_head_2_5_mm
-                  extra_clearance: -0.6
-                  height: 1
-                  inclusion: 3dpr
-                  m: '#'
-                  pos:
-                  - -2.875
-                  - -2.875
-                  - 0.3
-                  rotX: 0
-                  rotY: 0
-                  rotZ: 0
-                  shape: cube
-                  size:
-                  - 5.75
-                  - 5.75
-                  - 0.3
-                  type: positive
-                  width: 1
-      - extra: hex_head_2_5_mm
-        extra_clearance: -0.6
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - - - - - - extra: hex_head_2_5_mm
-                  extra_clearance: -0.6
-                  height: 1
-                  inclusion: 3dpr
-                  m: '#'
-                  pos:
-                  - -2.875
-                  - -5.0
-                  - -5.3
-                  rotX: 0
-                  rotY: 0
-                  rotZ: 0
-                  shape: cube
-                  size:
-                  - 5.75
-                  - 10
-                  - 0.3
-                  type: positive
-                  width: 1
-          - - - - extra: hex_head_2_5_mm
-                  extra_clearance: -0.6
-                  height: 1
-                  inclusion: 3dpr
-                  m: '#'
-                  pos:
-                  - -2.875
-                  - -2.875
-                  - -5.6
-                  rotX: 0
-                  rotY: 0
-                  rotZ: 0
-                  shape: cube
-                  size:
-                  - 5.75
-                  - 5.75
-                  - 0.3
-                  type: positive
-                  width: 1
-      - - - - - - extra: hex_head_2_5_mm
-                  extra_clearance: -0.6
-                  height: 1
-                  inclusion: 3dpr
-                  m: '#'
-                  pos:
-                  - -2.875
-                  - -5.0
-                  - 0
-                  rotX: 0
-                  rotY: 0
-                  rotZ: 0
-                  shape: cube
-                  size:
-                  - 5.75
-                  - 10
-                  - 0.3
-                  type: positive
-                  width: 1
-          - - - - extra: hex_head_2_5_mm
-                  extra_clearance: -0.6
-                  height: 1
-                  inclusion: 3dpr
-                  m: '#'
-                  pos:
-                  - -2.875
-                  - -2.875
-                  - 0.3
-                  rotX: 0
-                  rotY: 0
-                  rotZ: 0
-                  shape: cube
-                  size:
-                  - 5.75
-                  - 5.75
-                  - 0.3
-                  type: positive
-                  width: 1
+  - - extra: hex_head_2_5_mm
+      height: 9
       pos:
       - 0
       - 0
-      - 95.6
+      - 45
+      r: 7.50555
       rot:
       - 0
       - 0
-      - 0
-      type: rotation
-      typetype: n
+      - 30.0
+      shape: polyg
+      sides: 6
+      type: positive
+      width: 1
+  - - - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 46.0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 49.0
+        type: negative
+        width: 1
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 0.0
+      - -0.0
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 0.9
+      - -0.45
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 1.8
+      - -0.9
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 2.7
+      - -1.35
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 3.6
+      - -1.8
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 4.5
+      - -2.25
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 5.4
+      - -2.7
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 6.3
+      - -3.15
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 7.2
+      - -3.6
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 8.1
+      - -4.05
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 9.0
+      - -4.5
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 9.9
+      - -4.95
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 10.8
+      - -5.4
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 11.700000000000001
+      - -5.8500000000000005
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 12.6
+      - -6.3
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 13.5
+      - -6.75
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 14.4
+      - -7.2
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 15.3
+      - -7.65
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 16.2
+      - -8.1
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 17.1
+      - -8.55
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 18.0
+      - -9.0
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 18.900000000000002
+      - -9.450000000000001
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 19.8
+      - -9.9
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 20.7
+      - -10.35
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 21.6
+      - -10.8
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 22.5
+      - -11.25
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 23.400000000000002
+      - -11.700000000000001
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 24.3
+      - -12.15
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 25.2
+      - -12.6
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 26.1
+      - -13.05
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 27.0
+      - -13.5
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 27.900000000000002
+      - -13.950000000000001
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 28.8
+      - -14.4
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 29.7
+      - -14.85
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 30.6
+      - -15.3
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 31.5
+      - -15.75
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 32.4
+      - -16.2
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 33.300000000000004
+      - -16.650000000000002
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 34.2
+      - -17.1
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 35.1
+      - -17.55
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 36.0
+      - -18.0
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 36.9
+      - -18.45
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 37.800000000000004
+      - -18.900000000000002
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 38.7
+      - -19.35
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 39.6
+      - -19.8
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 40.5
+      - -20.25
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 41.4
+      - -20.7
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 42.300000000000004
+      - -21.150000000000002
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 43.2
+      - -21.6
       type: rotation
       typetype: n
   - - objects:
       - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: laser
+        height: 1
         m: '#'
         pos:
+        - -3.125
+        - -4.125
         - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.914249999999999
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 1
-      - extra: hex_head_2_5_mm
-        height: 5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -5
-        r: 5.77
-        shape: polyg
-        sides: 6
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
         type: positive
         width: 1
       pos:
       - 0
       - 0
-      - 93.2
+      - 46.0
       rot:
       - 0
       - 0
-      - 44.1
+      - -22.05
       type: rotation
       typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -22.5
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -22.95
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -23.400000000000002
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -23.85
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -24.3
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -24.75
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -25.2
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -25.650000000000002
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -26.1
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -26.55
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -27.0
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -27.45
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -27.900000000000002
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -28.35
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -28.8
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -29.25
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -29.7
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -30.150000000000002
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -30.6
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -31.05
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -31.5
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -31.95
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -32.4
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -32.85
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -33.300000000000004
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -33.75
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -34.2
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -34.65
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -35.1
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -35.550000000000004
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -36.0
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -36.45
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -36.9
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -37.35
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -37.800000000000004
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -38.25
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -38.7
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -39.15
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -39.6
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -40.050000000000004
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -40.5
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -40.95
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -41.4
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -41.85
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -42.300000000000004
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -42.75
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -43.2
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -43.65
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -44.1
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: hex_head_2_5_mm
+        height: 1
+        m: '#'
+        pos:
+        - -3.125
+        - -4.125
+        - 0
+        shape: cube
+        size:
+        - 6.25
+        - 8.25
+        - 7.25
+        type: positive
+        width: 1
+      pos:
+      - 0
+      - 0
+      - 46.0
+      rot:
+      - 0
+      - 0
+      - -44.550000000000004
+      type: rotation
+      typetype: n
+  - - depth: 100
+      extra: hex_head_2_5_mm
+      h: 100
+      height: 1
+      inclusion: laser
+      m: '#'
+      pos: &id002
+      - -50.0
+      - 0
+      - 49.5
+      r: 1.5
+      rot: &id003
+      - 0
+      - 90
+      - 0
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 100
+      extra: hex_head_2_5_mm
+      h: 100
+      height: 1
+      inclusion: 3dpr
+      m: '#'
+      pos: *id002
+      r: 1.8
+      rot: *id003
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 100
+      extra: hex_head_2_5_mm
+      h: 100
+      height: 1
+      inclusion: 'true'
+      m: '#'
+      pos: *id002
+      r: 1.5
+      rot: *id003
+      shape: cylinder
+      type: negative
+      width: 1
+  - - objects:
+      - - - clearance: 0.2
+            extra: hex_head_2_5_mm
+            height: 228.2
+            pos:
+            - 0.1
+            - 0
+            - 0
+            r: 3.8658550000000003
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 1
+      - - - clearance: 0.2
+            extra: hex_head_2_5_mm
+            height: 2
+            pos:
+            - 0
+            - 0
+            - 0
+            r1: 2.1
+            r2: 3.775
+            shape: tube_new
+            type: negative
+            wall_thickness: 8
+            width: 1
+      - - - clearance: 0.2
+            depth: 100
+            extra: hex_head_2_5_mm
+            h: 100
+            height: 1
+            inclusion: laser
+            pos: &id004
+            - 0
+            - 0
+            - -71.8
+            r: 2.1
+            radius: 2.1
+            shape: cylinder
+            type: positive
+            width: 1
+          - clearance: 0.2
+            depth: 100
+            extra: hex_head_2_5_mm
+            h: 100
+            height: 1
+            inclusion: 3dpr
+            pos: *id004
+            r: 2.1
+            shape: cylinder
+            type: positive
+            width: 1
+          - clearance: 0.2
+            depth: 100
+            extra: hex_head_2_5_mm
+            h: 100
+            height: 1
+            inclusion: 'true'
+            pos: *id004
+            r: 2.1
+            radius: 2.1
+            shape: cylinder
+            type: positive
+            width: 1
+      pos:
+      - 0
+      - 0
+      - 14
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
   components_objects:
-  - depth: 10
+  - depth: 92
     extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -2886,52 +2744,17 @@ thing:
     pos:
     - 0
     - 0
-    - 90.0
-    radius: 9.0
-    rot:
-    - 0
-    - 0
-    - 0
+    - 3
+    radius: 5.0
     save_type: none
     shape: oobb_cylinder
     thickness: 3
     type: p
     width: 1
-  - extra: hex_head_2_5_mm
-    extra_clearance: -0.6
-    filter: ''
-    height: 1
-    m: '#'
-    modes:
-    - 3dpr
-    navigation: false
-    oomp_classification: project
-    oomp_color: oomlout_oobb_tool_precision_screwdriver
-    oomp_description_extra: ''
-    oomp_description_main: ''
-    oomp_manufacturer: ''
-    oomp_mode: project
-    oomp_part_number: ''
-    oomp_run: false
-    oomp_size: oomlout
-    oomp_type: github
-    overhang: true
-    overwrite: true
-    pos:
-    - 0
-    - 0
-    - 95.6
-    radius_name: m6
-    save_type: none
-    shape: oobb_nut
-    thickness: 3
-    type: n
-    width: 1
-    zz: top
+    zz: bottom
   - extra: hex_head_2_5_mm
     filter: ''
-    height: 1
-    m: '#'
+    height: 9
     modes:
     - 3dpr
     navigation: false
@@ -2949,14 +2772,46 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 45
+    radius: 7.50555
     rot:
     - 0
     - 0
-    - 0.0
+    - 30.0
     save_type: none
-    shape: oobb_nut
+    shape: polyg
+    sides: 6
+    thickness: 3
+    type: p
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 95
+    save_type: none
+    shape: oobb_cube
+    size:
+    - 6.25
+    - 8.25
+    - 49.0
     thickness: 3
     type: n
     width: 1
@@ -2982,18 +2837,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 0.9
+    - -0.0
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3015,18 +2872,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 1.8
+    - -0.45
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3048,18 +2907,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 2.7
+    - -0.9
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3081,18 +2942,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 3.6
+    - -1.35
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3114,18 +2977,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 4.5
+    - -1.8
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3147,18 +3012,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 5.4
+    - -2.25
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3180,18 +3047,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 6.3
+    - -2.7
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3213,18 +3082,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 7.2
+    - -3.15
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3246,18 +3117,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 8.1
+    - -3.6
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3279,18 +3152,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 9.0
+    - -4.05
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3312,18 +3187,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 9.9
+    - -4.5
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3345,18 +3222,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 10.8
+    - -4.95
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3378,18 +3257,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 11.700000000000001
+    - -5.4
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3411,18 +3292,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 12.6
+    - -5.8500000000000005
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3444,18 +3327,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 13.5
+    - -6.3
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3477,18 +3362,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 14.4
+    - -6.75
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3510,18 +3397,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 15.3
+    - -7.2
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3543,18 +3432,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 16.2
+    - -7.65
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3576,18 +3467,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 17.1
+    - -8.1
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3609,18 +3502,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 18.0
+    - -8.55
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3642,18 +3537,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 18.900000000000002
+    - -9.0
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3675,18 +3572,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 19.8
+    - -9.450000000000001
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3708,18 +3607,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 20.7
+    - -9.9
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3741,18 +3642,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 21.6
+    - -10.35
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3774,18 +3677,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 22.5
+    - -10.8
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3807,18 +3712,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 23.400000000000002
+    - -11.25
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3840,18 +3747,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 24.3
+    - -11.700000000000001
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3873,18 +3782,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 25.2
+    - -12.15
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3906,18 +3817,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 26.1
+    - -12.6
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3939,18 +3852,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 27.0
+    - -13.05
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -3972,18 +3887,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 27.900000000000002
+    - -13.5
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4005,18 +3922,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 28.8
+    - -13.950000000000001
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4038,18 +3957,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 29.7
+    - -14.4
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4071,18 +3992,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 30.6
+    - -14.85
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4104,18 +4027,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 31.5
+    - -15.3
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4137,18 +4062,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 32.4
+    - -15.75
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4170,18 +4097,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 33.300000000000004
+    - -16.2
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4203,18 +4132,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 34.2
+    - -16.650000000000002
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4236,18 +4167,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 35.1
+    - -17.1
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4269,18 +4202,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 36.0
+    - -17.55
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4302,18 +4237,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 36.9
+    - -18.0
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4335,18 +4272,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 37.800000000000004
+    - -18.45
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4368,18 +4307,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 38.7
+    - -18.900000000000002
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4401,18 +4342,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 39.6
+    - -19.35
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4434,18 +4377,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 40.5
+    - -19.8
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4467,18 +4412,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 41.4
+    - -20.25
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4500,18 +4447,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 42.300000000000004
+    - -20.7
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4533,18 +4482,20 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 43.2
+    - -21.150000000000002
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
   - extra: hex_head_2_5_mm
     filter: ''
     height: 1
@@ -4566,71 +4517,1943 @@ thing:
     pos:
     - 0
     - 0
-    - 93.2
-    radius_name: m6
+    - 46.0
     rot:
     - 0
     - 0
-    - 44.1
+    - -21.6
     save_type: none
-    shape: oobb_nut
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
     thickness: 3
     type: n
     width: 1
-    zz: top
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -22.05
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -22.5
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -22.95
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -23.400000000000002
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -23.85
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -24.3
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -24.75
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -25.2
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -25.650000000000002
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -26.1
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -26.55
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -27.0
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -27.45
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -27.900000000000002
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -28.35
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -28.8
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -29.25
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -29.7
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -30.150000000000002
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -30.6
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -31.05
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -31.5
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -31.95
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -32.4
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -32.85
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -33.300000000000004
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -33.75
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -34.2
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -34.65
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -35.1
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -35.550000000000004
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -36.0
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -36.45
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -36.9
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -37.35
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -37.800000000000004
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -38.25
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -38.7
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -39.15
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -39.6
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -40.050000000000004
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -40.5
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -40.95
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -41.4
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -41.85
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -42.300000000000004
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -42.75
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -43.2
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -43.65
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -44.1
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 46.0
+    rot:
+    - 0
+    - 0
+    - -44.550000000000004
+    save_type: none
+    shape: oobb_cube_new
+    size:
+    - 6.25
+    - 8.25
+    - 7.25
+    thickness: 3
+    type: n
+    width: 1
+  - depth: 100
+    extra: hex_head_2_5_mm
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -50.0
+    - 0
+    - 49.5
+    radius_name: m3
+    rot:
+    - 0
+    - 90
+    - 0
+    save_type: none
+    shape: oobb_hole
+    thickness: 3
+    type: n
+    width: 1
   components_string:
-  - oobb_cylinder_shape_p_type_10_depth_0_0_90.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_9.0_radius_0_0_0_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_95.6_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_true_overhang_-0.6_extra_clearance_top_zz
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_0.0_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_0.9_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_1.8_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_2.7_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_3.6_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_4.5_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_5.4_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_6.3_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_7.2_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_8.1_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_9.0_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_9.9_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_10.8_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_11.700000000000001_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_12.6_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_13.5_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_14.4_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_15.3_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_16.2_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_17.1_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_18.0_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_18.900000000000002_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_19.8_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_20.7_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_21.6_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_22.5_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_23.400000000000002_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_24.3_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_25.2_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_26.1_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_27.0_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_27.900000000000002_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_28.8_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_29.7_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_30.6_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_31.5_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_32.4_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_33.300000000000004_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_34.2_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_35.1_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_36.0_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_36.9_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_37.800000000000004_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_38.7_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_39.6_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_40.5_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_41.4_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_42.300000000000004_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_43.2_rot
-  - oobb_nut_shape_n_type_m6_radius_name_0_0_93.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_top_zz_0_0_44.1_rot
+  - oobb_cylinder_shape_p_type_92_depth_0_0_3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_5.0_radius_bottom_zz
+  - polyg_shape_p_type_0_0_45_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_9_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6_sides_7.50555_radius_0_0_30.0_rot
+  - oobb_cube_shape_n_type_0_0_95_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_49.0_size_top_zz
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-0.0_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-0.45_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-0.9_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-1.35_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-1.8_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-2.25_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-2.7_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-3.15_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-3.6_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-4.05_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-4.5_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-4.95_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-5.4_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-5.8500000000000005_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-6.3_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-6.75_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-7.2_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-7.65_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-8.1_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-8.55_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-9.0_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-9.450000000000001_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-9.9_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-10.35_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-10.8_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-11.25_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-11.700000000000001_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-12.15_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-12.6_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-13.05_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-13.5_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-13.950000000000001_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-14.4_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-14.85_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-15.3_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-15.75_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-16.2_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-16.650000000000002_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-17.1_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-17.55_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-18.0_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-18.45_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-18.900000000000002_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-19.35_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-19.8_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-20.25_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-20.7_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-21.150000000000002_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-21.6_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-22.05_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-22.5_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-22.95_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-23.400000000000002_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-23.85_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-24.3_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-24.75_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-25.2_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-25.650000000000002_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-26.1_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-26.55_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-27.0_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-27.45_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-27.900000000000002_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-28.35_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-28.8_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-29.25_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-29.7_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-30.150000000000002_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-30.6_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-31.05_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-31.5_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-31.95_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-32.4_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-32.85_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-33.300000000000004_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-33.75_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-34.2_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-34.65_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-35.1_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-35.550000000000004_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-36.0_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-36.45_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-36.9_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-37.35_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-37.800000000000004_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-38.25_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-38.7_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-39.15_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-39.6_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-40.050000000000004_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-40.5_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-40.95_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-41.4_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-41.85_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-42.300000000000004_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-42.75_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-43.2_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-43.65_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-44.1_rot
+  - oobb_cube_new_shape_n_type_0_0_46.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_6.25_8.25_7.25_size_0_0_-44.550000000000004_rot
+  - oobb_hole_shape_n_type_m3_radius_name_100_depth_-50.0_0_49.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_hex_head_2_5_mm_extra_0_90_0_rot
   description: oomlout oobb tool precision screwdriver precision screwdriver test
     nut drop 1x1x3
   description_extra: hex_head_2_5_mm_extra
