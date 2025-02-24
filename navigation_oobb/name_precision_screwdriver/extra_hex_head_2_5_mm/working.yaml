@@ -1,7 +1,7 @@
 classification: project
 color: oomlout_oobb_tool_precision_screwdriver
 description_extra: ''
-description_main: precision_screwdriver_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra
+description_main: precision_screwdriver_1_width_1_height_3_mm_depth
 full_rotations:
 - 0
 - 0
@@ -10,8 +10,8 @@ full_shift:
 - 0
 - 0
 - 0
-id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra
-id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra_hex_head_2_5_mm_extra
+id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth
+id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra
 kwargs:
   extra: hex_head_2_5_mm
   filter: ''
@@ -22,7 +22,7 @@ kwargs:
   oomp_classification: project
   oomp_color: oomlout_oobb_tool_precision_screwdriver
   oomp_description_extra: ''
-  oomp_description_main: precision_screwdriver_1_width_1_height_3_mm_depth_hex_head_2_5_mm_extra
+  oomp_description_main: precision_screwdriver_1_width_1_height_3_mm_depth
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
