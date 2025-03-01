@@ -1,0 +1,557 @@
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+description_extra: ''
+description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth
+id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth
+kwargs:
+  filter: ''
+  height: 1
+  modes:
+  - 3dpr
+  navigation: false
+  oomp_classification: project
+  oomp_color: oomlout_oobb_tool_precision_screwdriver
+  oomp_description_extra: ''
+  oomp_description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: false
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 3
+  type: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
+  width: 1
+manufacturer: ''
+name: precision_screwdriver
+part_number: ''
+project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+size: oomlout
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - objects:
+      - - - clearance: 0.2
+            height: 228.2
+            m: '#'
+            pos:
+            - 0.1
+            - 0
+            - 0
+            r: 3.8658550000000003
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 1
+      - - - clearance: 0.2
+            height: 2
+            m: '#'
+            pos:
+            - 0
+            - 0
+            - 0
+            r1: 1.85
+            r2: 3.775
+            shape: tube_new
+            type: negative
+            wall_thickness: 8
+            width: 1
+      - - - clearance: 0.2
+            depth: 100
+            h: 100
+            height: 1
+            inclusion: laser
+            m: '#'
+            pos: &id001
+            - 0
+            - 0
+            - -71.8
+            r: 1.85
+            radius: 1.85
+            shape: cylinder
+            type: positive
+            width: 1
+          - clearance: 0.2
+            depth: 100
+            h: 100
+            height: 1
+            inclusion: 3dpr
+            m: '#'
+            pos: *id001
+            r: 1.85
+            shape: cylinder
+            type: positive
+            width: 1
+          - clearance: 0.2
+            depth: 100
+            h: 100
+            height: 1
+            inclusion: 'true'
+            m: '#'
+            pos: *id001
+            r: 1.85
+            radius: 1.85
+            shape: cylinder
+            type: positive
+            width: 1
+      pos:
+      - 0
+      - 0
+      - 25
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - depth: 3
+      h: 3
+      height: 1
+      inclusion: laser
+      pos: &id002
+      - 0
+      - 0
+      - 0.0
+      r1: 1.25
+      r2: 6.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 3
+      h: 3
+      height: 1
+      inclusion: 3dpr
+      pos: *id002
+      r1: 1.25
+      r2: 6.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 3
+      h: 3
+      height: 1
+      inclusion: 'true'
+      pos: *id002
+      r1: 1.25
+      r2: 6.0
+      shape: cylinder
+      type: positive
+      width: 1
+  - - height: 9
+      pos:
+      - 0
+      - 0
+      - 3
+      r: 5.7735
+      shape: polyg
+      sides: 6
+      type: positive
+      width: 1
+  - - depth: 40
+      h: 40
+      height: 1
+      inclusion: laser
+      pos: &id003
+      - 0
+      - 0
+      - 12.0
+      r: 6.0
+      radius: 6.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 40
+      h: 40
+      height: 1
+      inclusion: 3dpr
+      pos: *id003
+      r: 6.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 40
+      h: 40
+      height: 1
+      inclusion: 'true'
+      pos: *id003
+      r: 6.0
+      radius: 6.0
+      shape: cylinder
+      type: positive
+      width: 1
+  - - height: 9
+      pos:
+      - 0
+      - 0
+      - 52
+      r: 7.50555
+      shape: polyg
+      sides: 6
+      type: positive
+      width: 1
+  - - depth: 35
+      h: 35
+      height: 1
+      inclusion: laser
+      pos: &id004
+      - 0
+      - 0
+      - 61.0
+      r: 6.0
+      radius: 6.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 35
+      h: 35
+      height: 1
+      inclusion: 3dpr
+      pos: *id004
+      r: 6.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 35
+      h: 35
+      height: 1
+      inclusion: 'true'
+      pos: *id004
+      r: 6.0
+      radius: 6.0
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 6
+      h: 6
+      height: 1
+      inclusion: laser
+      pos: &id005
+      - 0
+      - 0
+      - 96.0
+      r: 8.25
+      radius: 8.25
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 6
+      h: 6
+      height: 1
+      inclusion: 3dpr
+      pos: *id005
+      r: 8.25
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 6
+      h: 6
+      height: 1
+      inclusion: 'true'
+      pos: *id005
+      r: 8.25
+      radius: 8.25
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 5.25
+      h: 5.25
+      height: 1
+      inclusion: laser
+      pos: &id006
+      - 0
+      - 0
+      - 96.0
+      r: 9.0
+      radius: 9.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 5.25
+      h: 5.25
+      height: 1
+      inclusion: 3dpr
+      pos: *id006
+      r: 9.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 5.25
+      h: 5.25
+      height: 1
+      inclusion: 'true'
+      pos: *id006
+      r: 9.0
+      radius: 9.0
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 1.5
+      height: 1
+      id: 7.5
+      pos:
+      - 0
+      - 0
+      - 101.25
+      shape: oring
+      type: positive
+      width: 1
+  components_objects:
+  - depth: 3
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 1.5
+    r1: 1.25
+    r2: 6.0
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 3
+    type: positive
+    width: 1
+  - filter: ''
+    height: 9
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 3
+    radius: 5.7735
+    save_type: none
+    shape: polyg
+    sides: 6
+    thickness: 3
+    type: positive
+    width: 1
+  - depth: 40
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 32.0
+    radius: 6.0
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 3
+    type: positive
+    width: 1
+  - filter: ''
+    height: 9
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 52
+    radius: 7.50555
+    save_type: none
+    shape: polyg
+    sides: 6
+    thickness: 3
+    type: positive
+    width: 1
+  - depth: 35
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 78.5
+    radius: 6.0
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 3
+    type: positive
+    width: 1
+  - depth: 6
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 99.0
+    radius: 8.25
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 3
+    type: positive
+    width: 1
+  - depth: 5.25
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 98.625
+    radius: 9.0
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 3
+    type: positive
+    width: 1
+  - depth: 1.5
+    filter: ''
+    height: 1
+    id: 7.5
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 101.25
+    save_type: none
+    shape: oring
+    thickness: 3
+    type: positive
+    width: 1
+  components_string:
+  - oobb_cylinder_shape_positive_type_3_depth_0_0_1.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.25_r1_6.0_r2
+  - polyg_shape_positive_type_0_0_3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_9_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_6_sides_5.7735_radius
+  - oobb_cylinder_shape_positive_type_40_depth_0_0_32.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_6.0_radius
+  - polyg_shape_positive_type_0_0_52_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_9_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_6_sides_7.50555_radius
+  - oobb_cylinder_shape_positive_type_35_depth_0_0_78.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_6.0_radius
+  - oobb_cylinder_shape_positive_type_6_depth_0_0_99.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_8.25_radius
+  - oobb_cylinder_shape_positive_type_5.25_depth_0_0_98.625_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_9.0_radius
+  - oring_shape_positive_type_1.5_depth_0_0_101.25_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_7.5_id
+  description: oomlout oobb tool precision screwdriver precision screwdriver 1x1x3
+  description_extra: ''
+  description_main: 1_width_1_height_3_mm_depth
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth
+  height: 1
+  height_mm: 14
+  id: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_tool_precision_screwdriver_precision_screwdriver/1_width_1_height_3_mm_depth/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_01_01_03
+  manufacturer: ''
+  name: Oobb Part Oomlout Oobb Tool Precision Screwdriver Precision Screwdriver 1
+    Width 1 Height 3 mm Depth
+  name_short: Oomlout Oobb Tool Precision Screwdriver
+  part_number: ''
+  short_name: ''
+  size: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
+  thickness: 3
+  thickness_mm: 3
+  type: part
+  width: 1
+  width_mm: 14
+type: github

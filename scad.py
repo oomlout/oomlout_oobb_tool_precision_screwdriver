@@ -114,16 +114,16 @@ def make_scad(**kwargs):
         
         part = copy.deepcopy(part_default)
         p3 = copy.deepcopy(kwargs)
-        p3["width"] = 3
-        p3["height"] = 3
+        p3["width"] = 1
+        p3["height"] = 1
         #p3["thickness"] = 6
         #p3["extra"] = ""
         part["kwargs"] = p3
-        nam = "base"
+        nam = "precision_screwdriver"
         part["name"] = nam
         if oomp_mode == "oobb":
             p3["oomp_size"] = nam
-        #parts.append(part)
+        parts.append(part)
 
 
     kwargs["parts"] = parts
@@ -135,9 +135,9 @@ def make_scad(**kwargs):
         sort = []
         #sort.append("extra")
         sort.append("name")
-        sort.append("width")
-        sort.append("height")
-        sort.append("thickness")
+        #sort.append("width")
+        #sort.append("height")
+        #sort.append("thickness")
         
         scad_help.generate_navigation(sort = sort)
 
@@ -202,6 +202,271 @@ def get_base(thing, **kwargs):
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
     
+def get_precision_screwdriver(thing, **kwargs):
+
+    prepare_print = kwargs.get("prepare_print", False)
+    width = kwargs.get("width", 1)
+    height = kwargs.get("height", 1)
+    depth = kwargs.get("thickness", 3)                    
+    rot = kwargs.get("rot", [0, 0, 0])
+    pos = kwargs.get("pos", [0, 0, 0])
+    extra = kwargs.get("extra", "")
+    
+    #variables
+    hex_side_ratio = 1.1547
+    radius_main = 12 / 2
+
+    #1_driver_bit
+    driver_bit_lift = 25
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["m"] = "#"
+        p3["clearance"] = 0.2
+        p3["clearance_top"] = True
+        p3["length"] = 100
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 0#45/2
+        pos1[2] += driver_bit_lift
+        p3["pos"] = pos1
+        get_tool_screwdriver_bit_quarter_inch_drive_100_mm_depth(thing, **p3)
+
+    current_z = 0
+    #2_indent_bottom
+    indent_bottom_depth = 3
+    current_depth = indent_bottom_depth
+    indent_bottom_radius_bottom = 2.5/2
+    indent_bottom_radius_top = radius_main
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"oobb_cylinder"
+        p3["depth"] = indent_bottom_depth
+        p3["r1"] = indent_bottom_radius_bottom
+        p3["r2"] = indent_bottom_radius_top
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += indent_bottom_depth/2
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+    current_z += current_depth
+
+    #3_hex_bottom
+    hex_bottom_depth = 9
+    current_depth = hex_bottom_depth
+    hex_bottom_radius = 10/2 * hex_side_ratio
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"polyg"
+        p3["sides"] = 6
+        p3["height"] = hex_bottom_depth
+        p3["radius"] = hex_bottom_radius
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += current_z
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+    current_z += current_depth
+
+    #4_shaft_bottom
+    shaft_length_total = 75
+    shaft_bottom_depth = 40
+    shaft_bottom_radius = radius_main
+    current_depth = shaft_bottom_depth
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"oobb_cylinder"
+        dep = shaft_bottom_depth
+        p3["depth"] = dep
+        p3["radius"] = shaft_bottom_radius
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += current_z + dep/2
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+    current_z += current_depth
+
+    #5 hex_top
+    hex_top_depth = 9
+    current_depth = hex_top_depth
+    hex_top_radius = 13/2 * hex_side_ratio
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"polyg"
+        p3["sides"] = 6
+        p3["height"] = hex_top_depth
+        p3["radius"] = hex_top_radius
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += current_z
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+    current_z += current_depth
+
+    #6_shaft_top
+    shaft_top_depth = shaft_length_total - shaft_bottom_depth
+    shaft_top_radius = radius_main
+    current_depth = shaft_top_depth
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"oobb_cylinder"
+        dep = shaft_top_depth
+        p3["depth"] = dep
+        p3["radius"] = shaft_top_radius
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += current_z + dep/2
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+    current_z += current_depth
+
+    #7_top_cylinder
+    top_cylinder_depth = 6
+    top_cylinder_radius = 18/2
+    top_cylinder_donut_radius = 3/2
+    current_depth = top_cylinder_depth
+    if True:
+        #middle cylinder
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"oobb_cylinder"
+        dep = top_cylinder_depth
+        p3["depth"] = dep
+        p3["radius"] = top_cylinder_radius - (top_cylinder_donut_radius/2)
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += current_z + dep/2
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+        #bottom cylinder
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"oobb_cylinder"
+        dep = top_cylinder_depth - top_cylinder_donut_radius/2
+        p3["depth"] = dep
+        p3["radius"] = top_cylinder_radius
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += current_z + dep/2
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+        #oring
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"oring"
+        p3["depth"] = top_cylinder_donut_radius
+        p3["id"] = top_cylinder_radius - top_cylinder_donut_radius
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += current_z + top_cylinder_depth - top_cylinder_donut_radius/2
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+
+    pass
+    
+
+
+def get_tool_screwdriver_bit_quarter_inch_drive_100_mm_depth(thing, **kwargs):
+    clearance = kwargs.get("clearance", 0)
+    include_bit = kwargs.get("include_bit", True)
+    clearance_top = kwargs.get("clearance_top", False)
+    radius_bit_main = kwargs.get("radius_bit_main", 3.5/2)
+    pos = kwargs.get("pos", [0, 0, 0])
+    rot = kwargs.get("rot", [0, 0, 0])
+    
+    length = kwargs.get("length", 150)
+
+    # setting up for rotation object
+    typ = kwargs.get("type", "p")
+    kwargs["type"] = "positive" #needs to be positive for the difference to work
+    rot_original = rot   
+    kwargs.pop("rot", None)
+    kwargs.pop("rot_x", None)
+    kwargs.pop("rot_y", None)
+    kwargs.pop("rot_z", None)
+
+    # storing pos and popping it out to add it in rotation element     
+    pos_original = copy.deepcopy(copy.deepcopy(kwargs.get("pos", [0, 0, 0])))
+    pos_original_original = copy.deepcopy(pos_original)
+    kwargs.pop("pos", None)
+    pos = [0,0,0]
+    
+
+    
+    return_value = []
+
+    #hex shank
+    if True:
+        #hex bit is 0.25 inch6.35 mm
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "p"
+        p3["shape"] = f"polyg"
+        p3["sides"] = 6
+        p3["radius"] = (0.25 * 25.4) / 2  * 1.1546 + clearance# 7.32 hopefully 
+        height_total = 28 + clearance 
+        height_total_local = height_total       
+        if clearance_top:
+            height_total_local += 200
+        else:
+            height_total_local = height_total
+        p3["height"] = height_total_local
+        #p3["depth"] = 4
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += clearance /2
+        p3["pos"] = pos1
+        #p3["m"] = "#"    
+        return_value.append(oobb_base.oobb_easy(**p3))
+
+    #cutout at bottom
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"tube_new"
+        p3["height"] = 2
+        p3["r2"]= 7.35/2 + clearance/2
+        #p3["r1"]= 3.5/2
+        p3["r1"]= radius_bit_main + clearance/2
+        p3["wall_thickness"] = 8
+        pos1 = copy.deepcopy(pos)        
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        return_value.append(oobb_base.oobb_easy(**p3))
+
+    if include_bit:
+        #add bit
+        p3 = copy.deepcopy(kwargs)
+        #p3["type"] = "n"
+        p3["shape"] = f"oobb_cylinder"
+        dep = length
+        p3["depth"] = dep
+        
+        p3["radius"] = radius_bit_main + clearance / 2
+        pos1 = copy.deepcopy(pos)         
+        pos1[2] += -dep/2 + height_total
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        return_value.append(oobb_base.oobb_easy(**p3))
+
+
+    # packaging as a rotation object
+    return_value_2 = {}
+    return_value_2["type"]  = "rotation"
+    return_value_2["typetype"]  = typ
+    return_value_2["pos"] = pos_original
+    return_value_2["rot"] = rot_original
+    return_value_2["objects"] = return_value
+    return_value_2 = [return_value_2]
+
+
+    thing["components"].append(return_value_2)  
+
 if __name__ == '__main__':
     kwargs = {}
     main(**kwargs)
