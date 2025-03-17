@@ -8,4 +8,5 @@
   * [github](project/github)
     * [oomlout](project/github/oomlout)
       * [oomlout_oobb_tool_precision_screwdriver](project/github/oomlout/oomlout_oobb_tool_precision_screwdriver)
+        * [bit_lock_1_width_1_height_3_mm_depth](project/github/oomlout/oomlout_oobb_tool_precision_screwdriver/bit_lock_1_width_1_height_3_mm_depth)
         * [precision_screwdriver_1_width_1_height_3_mm_depth](project/github/oomlout/oomlout_oobb_tool_precision_screwdriver/precision_screwdriver_1_width_1_height_3_mm_depth)

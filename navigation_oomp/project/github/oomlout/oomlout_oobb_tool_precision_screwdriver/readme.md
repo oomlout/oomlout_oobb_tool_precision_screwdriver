@@ -1,1 +1,2 @@
+* [bit_lock_1_width_1_height_3_mm_depth](bit_lock_1_width_1_height_3_mm_depth)
 * [precision_screwdriver_1_width_1_height_3_mm_depth](precision_screwdriver_1_width_1_height_3_mm_depth)

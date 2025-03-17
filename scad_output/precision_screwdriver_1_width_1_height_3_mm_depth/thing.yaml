@@ -44,7 +44,6 @@ thing:
   - - objects:
       - - - clearance: 0.2
             height: 228.2
-            m: '#'
             pos:
             - 0.1
             - 0
@@ -56,7 +55,6 @@ thing:
             width: 1
       - - - clearance: 0.2
             height: 2
-            m: '#'
             pos:
             - 0
             - 0
@@ -72,7 +70,6 @@ thing:
             h: 100
             height: 1
             inclusion: laser
-            m: '#'
             pos: &id001
             - 0
             - 0
@@ -87,7 +84,6 @@ thing:
             h: 100
             height: 1
             inclusion: 3dpr
-            m: '#'
             pos: *id001
             r: 1.85
             shape: cylinder
@@ -98,7 +94,6 @@ thing:
             h: 100
             height: 1
             inclusion: 'true'
-            m: '#'
             pos: *id001
             r: 1.85
             radius: 1.85
@@ -2192,7 +2187,7 @@ thing:
           type: rotation
           typetype: positive
       pos:
-      - 5.25
+      - 6.5
       - 0
       - 58.0
       rot:
@@ -4125,7 +4120,7 @@ thing:
     oomp_type: github
     overwrite: true
     pos:
-    - 5.25
+    - 6.5
     - 0
     - 58.0
     radius_name: m3
@@ -4219,7 +4214,7 @@ thing:
   - oobb_cube_shape_n_type_0_0_103.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_330.0_rot_shift
   - oobb_cube_shape_n_type_0_0_103.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_340.0_rot_shift
   - oobb_cube_shape_n_type_0_0_103.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_350.0_rot_shift
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_8_depth_5.25_0_58.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_true_nut_'top'_'bottom'_clearance_0_90_360.0_rot
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_8_depth_6.5_0_58.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_true_nut_'top'_'bottom'_clearance_0_90_360.0_rot
   - oobb_cube_shape_negative_type_0_0_48.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3.5_7.5_72.0_size
   description: oomlout oobb tool precision screwdriver precision screwdriver 1x1x3
   description_extra: ''
