@@ -221,7 +221,7 @@ def get_precision_screwdriver(thing, **kwargs):
     if True:
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "negative"
-        #p3["m"] = "#"
+        p3["m"] = "#"
         p3["clearance"] = 0.2
         p3["clearance_top"] = True
         p3["length"] = 100
@@ -233,7 +233,7 @@ def get_precision_screwdriver(thing, **kwargs):
 
     current_z = 0
     #2_indent_bottom
-    indent_bottom_depth = 3
+    indent_bottom_depth = 6
     current_depth = indent_bottom_depth
     indent_bottom_radius_bottom = 2.5/2
     indent_bottom_radius_top = radius_main
@@ -252,7 +252,7 @@ def get_precision_screwdriver(thing, **kwargs):
     current_z += current_depth
 
     #3_hex_bottom
-    hex_bottom_depth = 9
+    hex_bottom_depth = 6
     current_depth = hex_bottom_depth
     hex_bottom_radius = 10/2 * hex_side_ratio
     hex_bottom_joiner_donut_bottom_radius = 25/2
@@ -301,7 +301,7 @@ def get_precision_screwdriver(thing, **kwargs):
 
     #4_shaft_bottom
     shaft_length_total = 75
-    shaft_bottom_depth = 30
+    shaft_bottom_depth = 40
     shaft_bottom_radius = radius_main
     current_depth = shaft_bottom_depth
     if True:
@@ -319,10 +319,10 @@ def get_precision_screwdriver(thing, **kwargs):
     current_z += current_depth
 
     #5 hex_top
-    hex_top_depth = 9
+    hex_top_depth = 12
     current_depth = hex_top_depth
     hex_top_radius = 13/2 * hex_side_ratio
-    hex_top_joiner_donut_radius = 6/2
+    hex_top_joiner_donut_radius = 10/2
     hex_top_joiner_donut_id = radius_main
     if True:
         p3 = copy.deepcopy(kwargs)
@@ -334,6 +334,9 @@ def get_precision_screwdriver(thing, **kwargs):
         pos1 = copy.deepcopy(pos)
         pos1[2] += current_z
         p3["pos"] = pos1
+        rot1 = copy.deepcopy(rot)
+        rot1[2] = 360/12
+        p3["rot"] = rot1
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
 
@@ -392,7 +395,7 @@ def get_precision_screwdriver(thing, **kwargs):
     #7_top_cylinder
     top_cylinder_depth = 9
     top_cylinder_radius = 18/2
-    top_cylinder_top_donut_radius = 3/2
+    top_cylinder_top_donut_radius = 10/2
     top_cylinder_bottom_donut_radius = (top_cylinder_radius-shaft_top_radius_top)#/2
     top_cylinder_bottom_top_donut_id = top_cylinder_radius - top_cylinder_bottom_donut_radius
 
@@ -436,7 +439,7 @@ def get_precision_screwdriver(thing, **kwargs):
         pos1 = copy.deepcopy(pos)
         pos1[2] += current_z + top_cylinder_depth - top_cylinder_top_donut_radius/2
         p3["pos"] = pos1
-        #p3["m"] = "#"
+        p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
 
         #bottom transition
@@ -451,7 +454,7 @@ def get_precision_screwdriver(thing, **kwargs):
             pos1[2] += current_z + top_cylinder_bottom_donut_radius
             pos1[1] += 0 #+30
             p3["pos"] = pos1
-            #p3["m"] = "#"
+            p3["m"] = "#"
             oobb_base.append_full(thing,**p3)
 
             #bottom oring bottom
@@ -514,7 +517,7 @@ def get_precision_screwdriver(thing, **kwargs):
 
     #8_screw_lock            
     screw_lock_depth = 8
-    screw_lock_lift =  driver_bit_lift + 30 + 5
+    screw_lock_lift =  indent_bottom_depth + hex_bottom_depth + shaft_bottom_depth + hex_top_depth/2#driver_bit_lift + 30 + 5
     width_bit_locker = 7    
     height_bit_locker = 3
     depth_bit_locker = 14
@@ -528,11 +531,14 @@ def get_precision_screwdriver(thing, **kwargs):
         p3["clearance"] = ["top","bottom"]
         p3["radius_name"] = "m3"
         pos1 = copy.deepcopy(pos)
-        pos1[0] += 0 + dep/2 #+ 45
+        y_shift = (shaft_top_radius_bottom - screw_lock_depth)/2
+        pos1[0] += 0 + dep/2 - y_shift#+ 45 
+        
         pos1[2] += screw_lock_lift
         p3["pos"] = pos1
         rot1 = copy.deepcopy(rot)
-        rot1[1] = 90
+        rot1[1] += 90
+        rot1[2] += 10
         p3["rot"] = rot1
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)

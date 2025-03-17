@@ -45,6 +45,7 @@ thing:
   - - objects:
       - - - clearance: 0.2
             height: 228.2
+            m: '#'
             pos:
             - 0.1
             - 0
@@ -56,6 +57,7 @@ thing:
             width: 1
       - - - clearance: 0.2
             height: 2
+            m: '#'
             pos:
             - 0
             - 0
@@ -71,6 +73,7 @@ thing:
             h: 100
             height: 1
             inclusion: laser
+            m: '#'
             pos: &id001
             - 0
             - 0
@@ -85,6 +88,7 @@ thing:
             h: 100
             height: 1
             inclusion: 3dpr
+            m: '#'
             pos: *id001
             r: 1.85
             shape: cylinder
@@ -95,6 +99,7 @@ thing:
             h: 100
             height: 1
             inclusion: 'true'
+            m: '#'
             pos: *id001
             r: 1.85
             radius: 1.85
@@ -111,8 +116,8 @@ thing:
       - 0
       type: rotation
       typetype: negative
-  - - depth: 3
-      h: 3
+  - - depth: 6
+      h: 6
       height: 1
       inclusion: laser
       pos: &id002
@@ -124,8 +129,8 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-    - depth: 3
-      h: 3
+    - depth: 6
+      h: 6
       height: 1
       inclusion: 3dpr
       pos: *id002
@@ -134,8 +139,8 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-    - depth: 3
-      h: 3
+    - depth: 6
+      h: 6
       height: 1
       inclusion: 'true'
       pos: *id002
@@ -144,11 +149,11 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-  - - height: 9
+  - - height: 6
       pos:
       - 0
       - 0
-      - 3
+      - 6
       r: 5.7735
       shape: polyg
       sides: 6
@@ -160,7 +165,7 @@ thing:
       pos:
       - 0
       - 0
-      - 3
+      - 6
       shape: oring
       type: negative
       width: 1
@@ -174,8 +179,8 @@ thing:
       shape: oring
       type: negative
       width: 1
-  - - depth: 30
-      h: 30
+  - - depth: 40
+      h: 40
       height: 1
       inclusion: laser
       pos: &id003
@@ -187,8 +192,8 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-    - depth: 30
-      h: 30
+    - depth: 40
+      h: 40
       height: 1
       inclusion: 3dpr
       pos: *id003
@@ -196,8 +201,8 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-    - depth: 30
-      h: 30
+    - depth: 40
+      h: 40
       height: 1
       inclusion: 'true'
       pos: *id003
@@ -206,51 +211,55 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-  - - height: 9
+  - - height: 12
       pos:
       - 0
       - 0
-      - 42
+      - 52
       r: 7.50555
+      rot:
+      - 0
+      - 0
+      - 30.0
       shape: polyg
       sides: 6
       type: positive
       width: 1
-  - - depth: 3.0
+  - - depth: 5.0
       height: 1
       id: 5.5
       pos:
       - 0
       - 0
-      - 42
+      - 52
       shape: oring
       type: negative
       width: 1
-  - - depth: 3.0
+  - - depth: 5.0
       height: 1
       id: 5.5
       pos:
       - 0
       - 0
-      - 51
+      - 64
       shape: oring
       type: negative
       width: 1
-  - - depth: 45
-      h: 45
+  - - depth: 35
+      h: 35
       height: 1
       inclusion: laser
       pos: &id004
       - 0
       - 0
-      - 51.0
+      - 64.0
       r1: 5.5
       r2: 6.5
       shape: cylinder
       type: positive
       width: 1
-    - depth: 45
-      h: 45
+    - depth: 35
+      h: 35
       height: 1
       inclusion: 3dpr
       pos: *id004
@@ -259,8 +268,8 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-    - depth: 45
-      h: 45
+    - depth: 35
+      h: 35
       height: 1
       inclusion: 'true'
       pos: *id004
@@ -276,9 +285,9 @@ thing:
       pos: &id005
       - 0
       - 0
-      - 98.5
-      r: 8.25
-      radius: 8.25
+      - 101.5
+      r: 6.5
+      radius: 6.5
       shape: cylinder
       type: positive
       width: 1
@@ -287,7 +296,7 @@ thing:
       height: 1
       inclusion: 3dpr
       pos: *id005
-      r: 8.25
+      r: 6.5
       shape: cylinder
       type: positive
       width: 1
@@ -296,26 +305,26 @@ thing:
       height: 1
       inclusion: 'true'
       pos: *id005
-      r: 8.25
-      radius: 8.25
+      r: 6.5
+      radius: 6.5
       shape: cylinder
       type: positive
       width: 1
-  - - depth: 5.75
-      h: 5.75
+  - - depth: 4.0
+      h: 4.0
       height: 1
       inclusion: laser
       pos: &id006
       - 0
       - 0
-      - 98.5
+      - 101.5
       r: 9.0
       radius: 9.0
       shape: cylinder
       type: positive
       width: 1
-    - depth: 5.75
-      h: 5.75
+    - depth: 4.0
+      h: 4.0
       height: 1
       inclusion: 3dpr
       pos: *id006
@@ -323,8 +332,8 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-    - depth: 5.75
-      h: 5.75
+    - depth: 4.0
+      h: 4.0
       height: 1
       inclusion: 'true'
       pos: *id006
@@ -333,13 +342,25 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-  - - depth: 1.5
+  - - depth: 5.0
       height: 1
-      id: 7.5
+      id: 4.0
+      m: '#'
       pos:
       - 0
       - 0
-      - 104.25
+      - 105.5
+      shape: oring
+      type: positive
+      width: 1
+  - - depth: 2.5
+      height: 1
+      id: 6.5
+      m: '#'
+      pos:
+      - 0
+      - 0
+      - 101.5
       shape: oring
       type: positive
       width: 1
@@ -349,17 +370,7 @@ thing:
       pos:
       - 0
       - 0
-      - 98.5
-      shape: oring
-      type: positive
-      width: 1
-  - - depth: 2.5
-      height: 1
-      id: 6.5
-      pos:
-      - 0
-      - 0
-      - 96
+      - 99
       shape: oring
       type: negative
       width: 1
@@ -370,7 +381,7 @@ thing:
       pos: &id007
       - 0
       - 0
-      - 96.0
+      - 99.0
       r: 7.75
       radius: 7.75
       shape: cylinder
@@ -399,7 +410,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -422,7 +433,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -445,7 +456,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -468,7 +479,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -491,7 +502,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -514,7 +525,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -537,7 +548,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -560,7 +571,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -583,7 +594,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -606,7 +617,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -629,7 +640,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -652,7 +663,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -675,7 +686,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -698,7 +709,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -721,7 +732,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -744,7 +755,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -767,7 +778,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -790,7 +801,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -813,7 +824,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -836,7 +847,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -859,7 +870,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -882,7 +893,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -905,7 +916,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -928,7 +939,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -951,7 +962,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -974,7 +985,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -997,7 +1008,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -1020,7 +1031,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -1043,7 +1054,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -1066,7 +1077,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -1089,7 +1100,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -1112,7 +1123,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -1135,7 +1146,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -1158,7 +1169,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -1181,7 +1192,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -1204,7 +1215,7 @@ thing:
         pos:
         - -0.5
         - -0.5
-        - 96.0
+        - 99.0
         rot:
         - 0
         - 0
@@ -2182,29 +2193,29 @@ thing:
           type: rotation
           typetype: positive
       pos:
-      - 4.0
+      - 5.25
       - 0
-      - 60
+      - 58.0
       rot:
       - 0
       - 90
-      - 350.0
+      - 360.0
       type: rotation
       typetype: negative
   - - - height: 1
         pos:
         - -1.75
         - -3.75
-        - 50
+        - 48.0
         shape: cube
         size:
         - 3.5
         - 7.5
-        - 70
+        - 72.0
         type: negative
         width: 1
   components_objects:
-  - depth: 3
+  - depth: 6
     filter: ''
     height: 1
     modes:
@@ -2224,7 +2235,7 @@ thing:
     pos:
     - 0
     - 0
-    - 1.5
+    - 3.0
     r1: 1.25
     r2: 5.5
     save_type: all
@@ -2234,7 +2245,7 @@ thing:
     type: positive
     width: 1
   - filter: ''
-    height: 9
+    height: 6
     modes:
     - 3dpr
     navigation: true
@@ -2252,7 +2263,7 @@ thing:
     pos:
     - 0
     - 0
-    - 3
+    - 6
     radius: 5.7735
     save_type: all
     shape: polyg
@@ -2282,7 +2293,7 @@ thing:
     pos:
     - 0
     - 0
-    - 3
+    - 6
     save_type: all
     shape: oring
     thickness: 3
@@ -2317,7 +2328,7 @@ thing:
     typ: all
     type: negative
     width: 1
-  - depth: 30
+  - depth: 40
     filter: ''
     height: 1
     modes:
@@ -2337,7 +2348,7 @@ thing:
     pos:
     - 0
     - 0
-    - 27.0
+    - 32.0
     radius: 5.5
     save_type: all
     shape: oobb_cylinder
@@ -2346,7 +2357,7 @@ thing:
     type: positive
     width: 1
   - filter: ''
-    height: 9
+    height: 12
     modes:
     - 3dpr
     navigation: true
@@ -2364,8 +2375,12 @@ thing:
     pos:
     - 0
     - 0
-    - 42
+    - 52
     radius: 7.50555
+    rot:
+    - 0
+    - 0
+    - 30.0
     save_type: all
     shape: polyg
     sides: 6
@@ -2373,7 +2388,7 @@ thing:
     typ: all
     type: positive
     width: 1
-  - depth: 3.0
+  - depth: 5.0
     filter: ''
     height: 1
     id: 5.5
@@ -2394,14 +2409,14 @@ thing:
     pos:
     - 0
     - 0
-    - 42
+    - 52
     save_type: all
     shape: oring
     thickness: 3
     typ: all
     type: negative
     width: 1
-  - depth: 3.0
+  - depth: 5.0
     filter: ''
     height: 1
     id: 5.5
@@ -2422,14 +2437,14 @@ thing:
     pos:
     - 0
     - 0
-    - 51
+    - 64
     save_type: all
     shape: oring
     thickness: 3
     typ: all
     type: negative
     width: 1
-  - depth: 45
+  - depth: 35
     filter: ''
     height: 1
     modes:
@@ -2449,7 +2464,7 @@ thing:
     pos:
     - 0
     - 0
-    - 73.5
+    - 81.5
     r1: 5.5
     r2: 6.5
     save_type: all
@@ -2478,15 +2493,15 @@ thing:
     pos:
     - 0
     - 0
-    - 101.75
-    radius: 8.25
+    - 104.75
+    radius: 6.5
     save_type: all
     shape: oobb_cylinder
     thickness: 3
     typ: all
     type: positive
     width: 1
-  - depth: 5.75
+  - depth: 4.0
     filter: ''
     height: 1
     modes:
@@ -2506,7 +2521,7 @@ thing:
     pos:
     - 0
     - 0
-    - 101.375
+    - 103.5
     radius: 9.0
     save_type: all
     shape: oobb_cylinder
@@ -2514,10 +2529,11 @@ thing:
     typ: all
     type: positive
     width: 1
-  - depth: 1.5
+  - depth: 5.0
     filter: ''
     height: 1
-    id: 7.5
+    id: 4.0
+    m: '#'
     modes:
     - 3dpr
     navigation: true
@@ -2535,7 +2551,36 @@ thing:
     pos:
     - 0
     - 0
-    - 104.25
+    - 105.5
+    save_type: all
+    shape: oring
+    thickness: 3
+    typ: all
+    type: positive
+    width: 1
+  - depth: 2.5
+    filter: ''
+    height: 1
+    id: 6.5
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 101.5
     save_type: all
     shape: oring
     thickness: 3
@@ -2563,35 +2608,7 @@ thing:
     pos:
     - 0
     - 0
-    - 98.5
-    save_type: all
-    shape: oring
-    thickness: 3
-    typ: all
-    type: positive
-    width: 1
-  - depth: 2.5
-    filter: ''
-    height: 1
-    id: 6.5
-    modes:
-    - 3dpr
-    navigation: true
-    oomp_classification: project
-    oomp_color: oomlout_oobb_tool_precision_screwdriver
-    oomp_description_extra: ''
-    oomp_description_main: ''
-    oomp_manufacturer: ''
-    oomp_mode: project
-    oomp_part_number: ''
-    oomp_run: true
-    oomp_size: oomlout
-    oomp_type: github
-    overwrite: true
-    pos:
-    - 0
-    - 0
-    - 96
+    - 99
     save_type: all
     shape: oring
     thickness: 3
@@ -2618,7 +2635,7 @@ thing:
     pos:
     - 0
     - 0
-    - 97.875
+    - 100.875
     radius: 7.75
     save_type: all
     shape: oobb_cylinder
@@ -2645,7 +2662,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -2687,7 +2704,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -2729,7 +2746,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -2771,7 +2788,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -2813,7 +2830,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -2855,7 +2872,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -2897,7 +2914,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -2939,7 +2956,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -2981,7 +2998,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3023,7 +3040,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3065,7 +3082,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3107,7 +3124,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3149,7 +3166,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3191,7 +3208,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3233,7 +3250,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3275,7 +3292,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3317,7 +3334,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3359,7 +3376,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3401,7 +3418,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3443,7 +3460,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3485,7 +3502,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3527,7 +3544,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3569,7 +3586,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3611,7 +3628,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3653,7 +3670,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3695,7 +3712,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3737,7 +3754,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3779,7 +3796,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3821,7 +3838,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3863,7 +3880,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3905,7 +3922,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3947,7 +3964,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -3989,7 +4006,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -4031,7 +4048,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -4073,7 +4090,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -4115,7 +4132,7 @@ thing:
     pos:
     - 0
     - 0
-    - 100.5
+    - 103.5
     rot:
     - 0
     - 0
@@ -4160,14 +4177,14 @@ thing:
     oomp_type: github
     overwrite: true
     pos:
-    - 4.0
+    - 5.25
     - 0
-    - 60
+    - 58.0
     radius_name: m3
     rot:
     - 0
     - 90
-    - 350.0
+    - 360.0
     save_type: all
     shape: oobb_screw_countersunk
     thickness: 3
@@ -4193,71 +4210,71 @@ thing:
     pos:
     - 0
     - 0
-    - 50
+    - 48.0
     save_type: all
     shape: oobb_cube
     size:
     - 3.5
     - 7.5
-    - 70
+    - 72.0
     thickness: 3
     typ: all
     type: negative
     width: 1
   components_string:
-  - oobb_cylinder_shape_positive_type_3_depth_0_0_1.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.25_r1_5.5_r2
-  - polyg_shape_positive_type_0_0_3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_9_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_6_sides_5.7735_radius
-  - oring_shape_negative_type_12.5_depth_0_0_3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5.0_id
+  - oobb_cylinder_shape_positive_type_6_depth_0_0_3.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.25_r1_5.5_r2
+  - polyg_shape_positive_type_0_0_6_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_6_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_6_sides_5.7735_radius
+  - oring_shape_negative_type_12.5_depth_0_0_6_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5.0_id
   - oring_shape_negative_type_12.5_depth_0_0_12_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5.0_id
-  - oobb_cylinder_shape_positive_type_30_depth_0_0_27.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5.5_radius
-  - polyg_shape_positive_type_0_0_42_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_9_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_6_sides_7.50555_radius
-  - oring_shape_negative_type_3.0_depth_0_0_42_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5.5_id
-  - oring_shape_negative_type_3.0_depth_0_0_51_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5.5_id
-  - oobb_cylinder_shape_positive_type_45_depth_0_0_73.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5.5_r1_6.5_r2
-  - oobb_cylinder_shape_positive_type_6.5_depth_0_0_101.75_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_8.25_radius
-  - oobb_cylinder_shape_positive_type_5.75_depth_0_0_101.375_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_9.0_radius
-  - oring_shape_positive_type_1.5_depth_0_0_104.25_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_7.5_id
-  - oring_shape_positive_type_2.5_depth_0_0_98.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_6.5_id
-  - oring_shape_negative_type_2.5_depth_0_0_96_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_6.5_id
-  - oobb_cylinder_shape_positive_type_3.75_depth_0_0_97.875_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_7.75_radius
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_0.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_10.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_20.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_30.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_40.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_50.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_60.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_70.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_80.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_90.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_100.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_110.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_120.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_130.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_140.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_150.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_160.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_170.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_180.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_190.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_200.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_210.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_220.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_230.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_240.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_250.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_260.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_270.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_280.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_290.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_300.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_310.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_320.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_330.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_340.0_rot_shift
-  - oobb_cube_shape_n_type_0_0_100.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_350.0_rot_shift
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_8_depth_4.0_0_60_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_true_nut_'top'_'bottom'_clearance_0_90_350.0_rot
-  - oobb_cube_shape_negative_type_0_0_50_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3.5_7.5_70_size
+  - oobb_cylinder_shape_positive_type_40_depth_0_0_32.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5.5_radius
+  - polyg_shape_positive_type_0_0_52_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_12_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_6_sides_7.50555_radius_0_0_30.0_rot
+  - oring_shape_negative_type_5.0_depth_0_0_52_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5.5_id
+  - oring_shape_negative_type_5.0_depth_0_0_64_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5.5_id
+  - oobb_cylinder_shape_positive_type_35_depth_0_0_81.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5.5_r1_6.5_r2
+  - oobb_cylinder_shape_positive_type_6.5_depth_0_0_104.75_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_6.5_radius
+  - oobb_cylinder_shape_positive_type_4.0_depth_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_9.0_radius
+  - oring_shape_positive_type_5.0_depth_0_0_105.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_4.0_id
+  - oring_shape_positive_type_2.5_depth_0_0_101.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_6.5_id
+  - oring_shape_negative_type_2.5_depth_0_0_99_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_6.5_id
+  - oobb_cylinder_shape_positive_type_3.75_depth_0_0_100.875_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_7.75_radius
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_0.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_10.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_20.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_30.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_40.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_50.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_60.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_70.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_80.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_90.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_100.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_110.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_120.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_130.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_140.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_150.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_160.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_170.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_180.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_190.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_200.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_210.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_220.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_230.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_240.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_250.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_260.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_270.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_280.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_290.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_300.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_310.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_320.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_330.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_340.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_350.0_rot_shift
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_8_depth_5.25_0_58.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_true_nut_'top'_'bottom'_clearance_0_90_360.0_rot
+  - oobb_cube_shape_negative_type_0_0_48.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3.5_7.5_72.0_size
   description: oomlout oobb tool precision screwdriver precision screwdriver 1x1x3
   description_extra: ''
   description_main: 1_width_1_height_3_mm_depth
