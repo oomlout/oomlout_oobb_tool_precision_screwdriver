@@ -27,7 +27,8 @@ def make_scad(**kwargs):
         filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
         #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr", "laser", "true"]
     elif typ == "fast":
-        filter = ""; save_type = "none"; navigation = False; overwrite = True; modes = ["3dpr"]; oomp_run = False
+        #navigation
+        filter = ""; save_type = "none"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = False
     elif typ == "manual":
     #filter
         filter = ""
@@ -114,18 +115,23 @@ def make_scad(**kwargs):
         
 
         #screwdriver
-        part = copy.deepcopy(part_default)
-        p3 = copy.deepcopy(kwargs)
-        p3["width"] = 1
-        p3["height"] = 1
-        #p3["thickness"] = 6
-        #p3["extra"] = ""
-        part["kwargs"] = p3
-        nam = "precision_screwdriver"
-        part["name"] = nam
-        if oomp_mode == "oobb":
-            p3["oomp_size"] = nam
-        parts.append(part)
+        if True:
+            diameter_bit_mains = [3,3.25,3.5,3.75,4,4.25,4.5,4.75,5] 
+            for diameter_bit_main in diameter_bit_mains:
+                part = copy.deepcopy(part_default)
+                p3 = copy.deepcopy(kwargs)
+                p3["width"] = 1
+                p3["height"] = 1
+                p3["diameter_bit_main"] = diameter_bit_main
+                p3["radius_bit_main"] = diameter_bit_main / 2
+                #p3["thickness"] = 6
+                p3["extra"] = f"{diameter_bit_main}_mm_diameter_bit_main"
+                part["kwargs"] = p3
+                nam = "precision_screwdriver"
+                part["name"] = nam
+                if oomp_mode == "oobb":
+                    p3["oomp_size"] = nam
+                parts.append(part)
 
         #bit lock
         part = copy.deepcopy(part_default)
@@ -151,6 +157,7 @@ def make_scad(**kwargs):
                 sizes = ["5", "4", "3.5", "3", "2.5", "2", "1.5","0.9","0.7","1.3"]
                 for siz in sizes:
                     ex = {"shape": "hex", "size": siz}
+                    extras.append(ex)
                 #slotted
                 sizes = ["0.8", "1", "1.2", "1.5", "1.8", "2", "2.5", "3","4"]
                 for siz in sizes:
@@ -196,9 +203,16 @@ def make_scad(**kwargs):
         sort = []
         #sort.append("extra")
         sort.append("name")
+
         #sort.append("width")
         #sort.append("height")
         #sort.append("thickness")
+        #shape
+        sort.append("shape")
+        #siz
+        sort.append("siz")
+        #diameter_bit_main
+        sort.append("diameter_bit_main")
         
         scad_help.generate_navigation(sort = sort)
 
@@ -276,24 +290,54 @@ def get_label_top(thing, **kwargs):
     shape = kwargs.get("shape", "")
     siz = kwargs.get("siz", "")
     
+    diameter_label = 16
+
     #add cylinder
-    p3 = copy.deepcopy(kwargs)
-    p3["type"] = "positive"
-    p3["shape"] = f"oobb_cylinder"    
-    p3["radius"] = 16/2
-    p3["depth"] = depth
-    #p3["holes"] = True         uncomment to include default holes
-    #p3["m"] = "#"
-    pos1 = copy.deepcopy(pos)         
-    p3["pos"] = pos1
-    oobb_base.append_full(thing,**p3)
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"oobb_cylinder"    
+        p3["radius"] = (diameter_label-depth*2)/2
+        p3["depth"] = depth
+        #p3["holes"] = True         uncomment to include default holes
+        #p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)         
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+        #oring for curve#
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"oring"        
+        p3["depth"] = depth*2
+        p3["id"] = ((diameter_label) - depth*4) / 2
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += -depth/2
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+        #cutoff cube
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_cube"
+        wid = 50
+        hei = 50
+        dep = 50
+        size = [wid, hei, dep]
+        p3["size"] = size        
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 0 #+ 45
+        pos1[1] += 0 #+ 45
+        pos1[2] += -dep
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
     
     #add hex piece
     if True:
-        clearance = 0.2 - 0.025
+        clearance = 0.2 # - 0.025
     #hex bit is 0.25 inch6.35 mm
         p3 = copy.deepcopy(kwargs)
-        p3["type"] = "p"
+        p3["type"] = "positive_positive"
         p3["shape"] = f"polyg"
         p3["sides"] = 6
         rad =  (0.25 * 25.4) / 2  * 1.1546 + clearance# 7.32 hopefully 
@@ -309,7 +353,7 @@ def get_label_top(thing, **kwargs):
 
 
     #add shape
-    depth_indent = 0.5
+    depth_indent = 0.25
     if True:
         
         if shape == "hex":
@@ -329,8 +373,8 @@ def get_label_top(thing, **kwargs):
             p3 = copy.deepcopy(kwargs)
             p3["type"] = "n"
             p3["shape"] = f"oobb_cube"
-            wid = 8
-            hei = 2
+            wid = 6
+            hei = 1.5
             dep = depth_indent
             size = [wid, hei, dep]
             p3["size"] = size
@@ -345,8 +389,8 @@ def get_label_top(thing, **kwargs):
             p3 = copy.deepcopy(kwargs)
             p3["type"] = "n"
             p3["shape"] = f"oobb_cube"
-            wid = 8
-            hei = 2
+            wid = 6
+            hei = 1.5
             dep = depth_indent
             size = [wid, hei, dep]
             p3["size"] = size
@@ -360,8 +404,8 @@ def get_label_top(thing, **kwargs):
             p3 = copy.deepcopy(kwargs)
             p3["type"] = "n"
             p3["shape"] = f"oobb_cube"
-            wid = 2
-            hei = 8
+            wid = 1.5
+            hei = 6
             dep = depth_indent
             size = [wid, hei, dep]
             p3["size"] = size
@@ -929,7 +973,7 @@ def get_tool_screwdriver_bit_quarter_inch_drive_100_mm_depth(thing, **kwargs):
         p3["height"] = 2
         p3["r2"]= 7.35/2 + clearance/2
         #p3["r1"]= 3.5/2
-        p3["r1"]= radius_bit_main + clearance/2
+        p3["r1"]= radius_bit_main #+ clearance/2
         p3["wall_thickness"] = 8
         pos1 = copy.deepcopy(pos)        
         p3["pos"] = pos1
@@ -944,11 +988,11 @@ def get_tool_screwdriver_bit_quarter_inch_drive_100_mm_depth(thing, **kwargs):
         dep = length
         p3["depth"] = dep
         
-        p3["radius"] = radius_bit_main + clearance / 2
+        p3["radius"] = radius_bit_main #+ clearance / 2
         pos1 = copy.deepcopy(pos)         
         pos1[2] += -dep/2 + height_total
         p3["pos"] = pos1
-        #p3["m"] = "#"
+        p3["m"] = "#"
         return_value.append(oobb_base.oobb_easy(**p3))
 
 

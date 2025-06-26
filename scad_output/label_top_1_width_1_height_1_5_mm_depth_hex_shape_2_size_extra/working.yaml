@@ -18,7 +18,7 @@ kwargs:
   height: 1
   modes:
   - 3dpr
-  navigation: false
+  navigation: true
   oomp_classification: project
   oomp_color: oomlout_oobb_tool_precision_screwdriver
   oomp_description_extra: hex_shape_2_size_extra

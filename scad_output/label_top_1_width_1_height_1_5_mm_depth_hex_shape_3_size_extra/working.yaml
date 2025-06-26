@@ -1,0 +1,43 @@
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+description_extra: hex_shape_3_size_extra
+description_main: label_top_1_width_1_height_1_5_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_3_size_extra
+id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_3_size_extra
+kwargs:
+  extra: hex_shape_3_size
+  filter: ''
+  height: 1
+  modes:
+  - 3dpr
+  navigation: true
+  oomp_classification: project
+  oomp_color: oomlout_oobb_tool_precision_screwdriver
+  oomp_description_extra: hex_shape_3_size_extra
+  oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: false
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  shape: hex
+  siz: '3'
+  thickness: 1.5
+  type: oomlout_oobb_tool_precision_screwdriver_label_top
+  width: 1
+manufacturer: ''
+name: label_top
+part_number: ''
+project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+size: oomlout
+type: github

@@ -54,8 +54,8 @@ thing:
       - 0
       - 0
       - -0.75
-      r: 8.0
-      radius: 8.0
+      r: 6.5
+      radius: 6.5
       shape: cylinder
       type: positive
       width: 1
@@ -65,7 +65,7 @@ thing:
       height: 1
       inclusion: 3dpr
       pos: *id001
-      r: 8.0
+      r: 6.5
       shape: cylinder
       type: positive
       width: 1
@@ -75,47 +75,71 @@ thing:
       height: 1
       inclusion: 'true'
       pos: *id001
-      r: 8.0
-      radius: 8.0
+      r: 6.5
+      radius: 6.5
       shape: cylinder
       type: positive
       width: 1
+  - - depth: 3.0
+      extra: slotted_shape_1_size
+      height: 1
+      id: 5.0
+      pos:
+      - 0
+      - 0
+      - -0.75
+      shape: oring
+      type: positive
+      width: 1
+  - - - extra: slotted_shape_1_size
+        height: 1
+        pos:
+        - -25.0
+        - -25.0
+        - -50
+        shape: cube
+        size:
+        - 50
+        - 50
+        - 50
+        type: negative
+        width: 1
   - - extra: slotted_shape_1_size
       height: 6
       pos:
       - 0
       - 0
       - -6
-      r: 3.840855
+      r: 3.8658550000000003
       shape: polyg
       sides: 6
-      type: positive
+      type: positive_positive
       width: 1
-  - - - depth: 0.5
+  - - - depth: 0.25
         extra: slotted_shape_1_size
         height: 1
         m: '#'
         pos:
-        - -4.0
         - -3.0
-        - 0.25
+        - -2.75
+        - 0.5
         shape: cube
         size:
-        - 8
-        - 2
-        - 0.5
+        - 6
+        - 1.5
+        - 0.25
         type: negative
         width: 1
-  - - depth: 0.5
+  - - depth: 0.25
       extra: slotted_shape_1_size
       font: SegoiUI:Bold
       halign: center
-      height: 0.5
+      height: 0.25
       m: '#'
       pos:
       - 0
       - 4
-      - 0.25
+      - 0.5
       shape: text
       size: 4.5
       text: '1'
@@ -145,13 +169,75 @@ thing:
     - 0
     - 0
     - 0
-    radius: 8.0
+    radius: 6.5
     save_type: all
     shape: oobb_cylinder
     siz: '1'
     thickness: 1.5
     typ: all
     type: positive
+    width: 1
+  - depth: 3.0
+    extra: slotted_shape_1_size
+    filter: ''
+    height: 1
+    id: 5.0
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - -0.75
+    save_type: all
+    shape: oring
+    siz: '1'
+    thickness: 1.5
+    typ: all
+    type: positive
+    width: 1
+  - extra: slotted_shape_1_size
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - -50
+    save_type: all
+    shape: oobb_cube
+    siz: '1'
+    size:
+    - 50
+    - 50
+    - 50
+    thickness: 1.5
+    typ: all
+    type: negative
     width: 1
   - extra: slotted_shape_1_size
     filter: ''
@@ -174,16 +260,16 @@ thing:
     - 0
     - 0
     - -6
-    radius: 3.840855
+    radius: 3.8658550000000003
     save_type: all
     shape: polyg
     sides: 6
     siz: '1'
     thickness: 1.5
     typ: all
-    type: p
+    type: positive_positive
     width: 1
-  - depth: 0.5
+  - depth: 0.25
     extra: slotted_shape_1_size
     filter: ''
     height: 1
@@ -205,19 +291,19 @@ thing:
     pos:
     - 0
     - -2
-    - 0.25
+    - 0.5
     save_type: all
     shape: oobb_cube
     siz: '1'
     size:
-    - 8
-    - 2
-    - 0.5
+    - 6
+    - 1.5
+    - 0.25
     thickness: 1.5
     typ: all
     type: n
     width: 1
-  - depth: 0.5
+  - depth: 0.25
     extra: slotted_shape_1_size
     filter: ''
     font: SegoiUI:Bold
@@ -240,7 +326,7 @@ thing:
     pos:
     - 0
     - 4
-    - 0.25
+    - 0.5
     save_type: all
     shape: oobb_text
     siz: '1'
@@ -251,10 +337,12 @@ thing:
     type: n
     width: 1
   components_string:
-  - oobb_cylinder_shape_positive_type_1.5_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_siz_slotted_shape_1_size_extra_8.0_radius
-  - polyg_shape_p_type_0_0_-6_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_6_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_siz_slotted_shape_1_size_extra_6_sides_3.840855_radius
-  - oobb_cube_shape_n_type_0.5_depth_0_-2_0.25_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_siz_slotted_shape_1_size_extra_8_2_0.5_size
-  - oobb_text_shape_n_type_0.5_depth_0_4_0.25_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_siz_slotted_shape_1_size_extra_1_text_segoiui:bold_font_4.5_size
+  - oobb_cylinder_shape_positive_type_1.5_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_siz_slotted_shape_1_size_extra_6.5_radius
+  - oring_shape_positive_type_3.0_depth_0_0_-0.75_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_siz_slotted_shape_1_size_extra_5.0_id
+  - oobb_cube_shape_negative_type_0_0_-50_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_siz_slotted_shape_1_size_extra_50_50_50_size
+  - polyg_shape_positive_positive_type_0_0_-6_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_6_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_siz_slotted_shape_1_size_extra_6_sides_3.8658550000000003_radius
+  - oobb_cube_shape_n_type_0.25_depth_0_-2_0.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_siz_slotted_shape_1_size_extra_6_1.5_0.25_size
+  - oobb_text_shape_n_type_0.25_depth_0_4_0.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1_siz_slotted_shape_1_size_extra_1_text_segoiui:bold_font_4.5_size
   description: oomlout oobb tool precision screwdriver label top 1x1x1.5
   description_extra: slotted_shape_1_size_extra
   description_main: 1_width_1_height_1_5_mm_depth

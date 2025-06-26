@@ -27,16 +27,147 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 3
-      typ: all
       type: oomlout_oobb_tool_precision_screwdriver_bit_lock
       width: 1
     manufacturer: ''
     name: bit_lock
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_hex_shape_0.7_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: hex_shape_0.7_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_0_7_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_0d7_size_extra
+    kwargs:
+      extra: hex_shape_0.7_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: hex_shape_0.7_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: hex
+      siz: '0.7'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_hex_shape_0.9_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: hex_shape_0.9_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_0_9_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_0d9_size_extra
+    kwargs:
+      extra: hex_shape_0.9_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: hex_shape_0.9_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: hex
+      siz: '0.9'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_hex_shape_1.3_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: hex_shape_1.3_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_1_3_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_1d3_size_extra
+    kwargs:
+      extra: hex_shape_1.3_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: hex_shape_1.3_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: hex
+      siz: '1.3'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
     part_number: ''
     project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
     size: oomlout
@@ -62,7 +193,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_oobb_tool_precision_screwdriver
       oomp_description_extra: hex_shape_1.5_size_extra
@@ -106,7 +237,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_oobb_tool_precision_screwdriver
       oomp_description_extra: hex_shape_2.5_size_extra
@@ -150,7 +281,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_oobb_tool_precision_screwdriver
       oomp_description_extra: hex_shape_2_size_extra
@@ -164,6 +295,270 @@ parts:
       overwrite: true
       shape: hex
       siz: '2'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_hex_shape_3.5_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: hex_shape_3.5_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_3_5_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_3d5_size_extra
+    kwargs:
+      extra: hex_shape_3.5_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: hex_shape_3.5_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: hex
+      siz: '3.5'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_hex_shape_3_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: hex_shape_3_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_3_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_3_size_extra
+    kwargs:
+      extra: hex_shape_3_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: hex_shape_3_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: hex
+      siz: '3'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_hex_shape_4_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: hex_shape_4_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_4_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_4_size_extra
+    kwargs:
+      extra: hex_shape_4_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: hex_shape_4_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: hex
+      siz: '4'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_hex_shape_5_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: hex_shape_5_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_5_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_5_size_extra
+    kwargs:
+      extra: hex_shape_5_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: hex_shape_5_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: hex
+      siz: '5'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_phillips_shape_000_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: phillips_shape_000_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_000_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_000_size_extra
+    kwargs:
+      extra: phillips_shape_000_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: phillips_shape_000_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: phillips
+      siz: '000'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_phillips_shape_00_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: phillips_shape_00_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_00_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_00_size_extra
+    kwargs:
+      extra: phillips_shape_00_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: phillips_shape_00_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: phillips
+      siz: '00'
       thickness: 1.5
       type: oomlout_oobb_tool_precision_screwdriver_label_top
       width: 1
@@ -202,14 +597,277 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       shape: phillips
       siz: '0'
       thickness: 1.5
-      typ: all
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_phillips_shape_1_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: phillips_shape_1_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_1_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_1_size_extra
+    kwargs:
+      extra: phillips_shape_1_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: phillips_shape_1_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: phillips
+      siz: '1'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_slotted_shape_0.8_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: slotted_shape_0.8_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_0_8_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_0d8_size_extra
+    kwargs:
+      extra: slotted_shape_0.8_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: slotted_shape_0.8_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: slotted
+      siz: '0.8'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_slotted_shape_1.2_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: slotted_shape_1.2_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_1_2_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_1d2_size_extra
+    kwargs:
+      extra: slotted_shape_1.2_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: slotted_shape_1.2_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: slotted
+      siz: '1.2'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_slotted_shape_1.5_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: slotted_shape_1.5_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_1_5_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_1d5_size_extra
+    kwargs:
+      extra: slotted_shape_1.5_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: slotted_shape_1.5_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: slotted
+      siz: '1.5'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_slotted_shape_1.8_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: slotted_shape_1.8_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_1_8_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_1d8_size_extra
+    kwargs:
+      extra: slotted_shape_1.8_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: slotted_shape_1.8_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: slotted
+      siz: '1.8'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_slotted_shape_1_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: slotted_shape_1_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_1_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_1_size_extra
+    kwargs:
+      extra: slotted_shape_1_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: slotted_shape_1_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: slotted
+      siz: '1'
+      thickness: 1.5
       type: oomlout_oobb_tool_precision_screwdriver_label_top
       width: 1
     manufacturer: ''
@@ -247,14 +905,57 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       shape: slotted
       siz: '2.5'
       thickness: 1.5
-      typ: all
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  label_top_1_width_1_height_1_5_mm_depth_slotted_shape_2_size_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: slotted_shape_2_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_2_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_2_size_extra
+    kwargs:
+      extra: slotted_shape_2_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: slotted_shape_2_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: slotted
+      siz: '2'
+      thickness: 1.5
       type: oomlout_oobb_tool_precision_screwdriver_label_top
       width: 1
     manufacturer: ''
@@ -292,14 +993,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       shape: slotted
       siz: '3'
       thickness: 1.5
-      typ: all
       type: oomlout_oobb_tool_precision_screwdriver_label_top
       width: 1
     manufacturer: ''
@@ -308,10 +1008,54 @@ parts:
     project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
     size: oomlout
     type: github
-  precision_screwdriver_1_width_1_height_3_mm_depth:
+  label_top_1_width_1_height_1_5_mm_depth_slotted_shape_4_size_extra:
     classification: project
     color: oomlout_oobb_tool_precision_screwdriver
-    description_extra: ''
+    description_extra: slotted_shape_4_size_extra
+    description_main: label_top_1_width_1_height_1_5_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_4_size_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_4_size_extra
+    kwargs:
+      extra: slotted_shape_4_size
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: slotted_shape_4_size_extra
+      oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      shape: slotted
+      siz: '4'
+      thickness: 1.5
+      type: oomlout_oobb_tool_precision_screwdriver_label_top
+      width: 1
+    manufacturer: ''
+    name: label_top
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  precision_screwdriver_1_width_1_height_3_mm_depth_3.25_mm_diameter_bit_main_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: 3.25_mm_diameter_bit_main_extra
     description_main: precision_screwdriver_1_width_1_height_3_mm_depth
     full_rotations:
     - 0
@@ -321,9 +1065,11 @@ parts:
     - 0
     - 0
     - 0
-    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth
-    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_3_25_mm_diameter_bit_main_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_3d25_mm_diameter_bit_main_extra
     kwargs:
+      diameter_bit_main: 3.25
+      extra: 3.25_mm_diameter_bit_main
       filter: ''
       height: 1
       modes:
@@ -331,17 +1077,369 @@ parts:
       navigation: true
       oomp_classification: project
       oomp_color: oomlout_oobb_tool_precision_screwdriver
-      oomp_description_extra: ''
+      oomp_description_extra: 3.25_mm_diameter_bit_main_extra
       oomp_description_main: precision_screwdriver_1_width_1_height_3_mm_depth
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
+      radius_bit_main: 1.625
       thickness: 3
-      typ: all
+      type: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
+      width: 1
+    manufacturer: ''
+    name: precision_screwdriver
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  precision_screwdriver_1_width_1_height_3_mm_depth_3.5_mm_diameter_bit_main_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: 3.5_mm_diameter_bit_main_extra
+    description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_3_5_mm_diameter_bit_main_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_3d5_mm_diameter_bit_main_extra
+    kwargs:
+      diameter_bit_main: 3.5
+      extra: 3.5_mm_diameter_bit_main
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: 3.5_mm_diameter_bit_main_extra
+      oomp_description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      radius_bit_main: 1.75
+      thickness: 3
+      type: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
+      width: 1
+    manufacturer: ''
+    name: precision_screwdriver
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  precision_screwdriver_1_width_1_height_3_mm_depth_3.75_mm_diameter_bit_main_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: 3.75_mm_diameter_bit_main_extra
+    description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_3_75_mm_diameter_bit_main_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_3d75_mm_diameter_bit_main_extra
+    kwargs:
+      diameter_bit_main: 3.75
+      extra: 3.75_mm_diameter_bit_main
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: 3.75_mm_diameter_bit_main_extra
+      oomp_description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      radius_bit_main: 1.875
+      thickness: 3
+      type: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
+      width: 1
+    manufacturer: ''
+    name: precision_screwdriver
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  precision_screwdriver_1_width_1_height_3_mm_depth_3_mm_diameter_bit_main_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: 3_mm_diameter_bit_main_extra
+    description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_3_mm_diameter_bit_main_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_3_mm_diameter_bit_main_extra
+    kwargs:
+      diameter_bit_main: 3
+      extra: 3_mm_diameter_bit_main
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: 3_mm_diameter_bit_main_extra
+      oomp_description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      radius_bit_main: 1.5
+      thickness: 3
+      type: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
+      width: 1
+    manufacturer: ''
+    name: precision_screwdriver
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  precision_screwdriver_1_width_1_height_3_mm_depth_4.25_mm_diameter_bit_main_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: 4.25_mm_diameter_bit_main_extra
+    description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_4_25_mm_diameter_bit_main_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_4d25_mm_diameter_bit_main_extra
+    kwargs:
+      diameter_bit_main: 4.25
+      extra: 4.25_mm_diameter_bit_main
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: 4.25_mm_diameter_bit_main_extra
+      oomp_description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      radius_bit_main: 2.125
+      thickness: 3
+      type: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
+      width: 1
+    manufacturer: ''
+    name: precision_screwdriver
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  precision_screwdriver_1_width_1_height_3_mm_depth_4.5_mm_diameter_bit_main_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: 4.5_mm_diameter_bit_main_extra
+    description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_4_5_mm_diameter_bit_main_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_4d5_mm_diameter_bit_main_extra
+    kwargs:
+      diameter_bit_main: 4.5
+      extra: 4.5_mm_diameter_bit_main
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: 4.5_mm_diameter_bit_main_extra
+      oomp_description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      radius_bit_main: 2.25
+      thickness: 3
+      type: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
+      width: 1
+    manufacturer: ''
+    name: precision_screwdriver
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  precision_screwdriver_1_width_1_height_3_mm_depth_4.75_mm_diameter_bit_main_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: 4.75_mm_diameter_bit_main_extra
+    description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_4_75_mm_diameter_bit_main_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_4d75_mm_diameter_bit_main_extra
+    kwargs:
+      diameter_bit_main: 4.75
+      extra: 4.75_mm_diameter_bit_main
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: 4.75_mm_diameter_bit_main_extra
+      oomp_description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      radius_bit_main: 2.375
+      thickness: 3
+      type: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
+      width: 1
+    manufacturer: ''
+    name: precision_screwdriver
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  precision_screwdriver_1_width_1_height_3_mm_depth_4_mm_diameter_bit_main_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: 4_mm_diameter_bit_main_extra
+    description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_4_mm_diameter_bit_main_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_4_mm_diameter_bit_main_extra
+    kwargs:
+      diameter_bit_main: 4
+      extra: 4_mm_diameter_bit_main
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: 4_mm_diameter_bit_main_extra
+      oomp_description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      radius_bit_main: 2.0
+      thickness: 3
+      type: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
+      width: 1
+    manufacturer: ''
+    name: precision_screwdriver
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+    size: oomlout
+    type: github
+  precision_screwdriver_1_width_1_height_3_mm_depth_5_mm_diameter_bit_main_extra:
+    classification: project
+    color: oomlout_oobb_tool_precision_screwdriver
+    description_extra: 5_mm_diameter_bit_main_extra
+    description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_5_mm_diameter_bit_main_extra
+    id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_5_mm_diameter_bit_main_extra
+    kwargs:
+      diameter_bit_main: 5
+      extra: 5_mm_diameter_bit_main
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_oobb_tool_precision_screwdriver
+      oomp_description_extra: 5_mm_diameter_bit_main_extra
+      oomp_description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      radius_bit_main: 2.5
+      thickness: 3
       type: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
       width: 1
     manufacturer: ''

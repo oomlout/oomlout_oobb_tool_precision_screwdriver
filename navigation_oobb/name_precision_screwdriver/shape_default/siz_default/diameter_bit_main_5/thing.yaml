@@ -1,0 +1,4544 @@
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+description_extra: 5_mm_diameter_bit_main_extra
+description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_5_mm_diameter_bit_main_extra
+id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_5_mm_diameter_bit_main_extra
+kwargs:
+  diameter_bit_main: 5
+  extra: 5_mm_diameter_bit_main
+  filter: ''
+  height: 1
+  modes:
+  - 3dpr
+  navigation: true
+  oomp_classification: project
+  oomp_color: oomlout_oobb_tool_precision_screwdriver
+  oomp_description_extra: 5_mm_diameter_bit_main_extra
+  oomp_description_main: precision_screwdriver_1_width_1_height_3_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: true
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  radius_bit_main: 2.5
+  thickness: 3
+  typ: all
+  type: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
+  width: 1
+manufacturer: ''
+name: precision_screwdriver
+part_number: ''
+project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+size: oomlout
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - objects:
+      - - - clearance: 0.2
+            extra: 5_mm_diameter_bit_main
+            height: 228.2
+            pos:
+            - 0.1
+            - 0
+            - 0
+            r: 3.8658550000000003
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 1
+      - - - clearance: 0.2
+            extra: 5_mm_diameter_bit_main
+            height: 2
+            pos:
+            - 0
+            - 0
+            - 0
+            r1: 2.5
+            r2: 3.775
+            shape: tube_new
+            type: negative
+            wall_thickness: 8
+            width: 1
+      - - - clearance: 0.2
+            depth: 100
+            extra: 5_mm_diameter_bit_main
+            h: 100
+            height: 1
+            inclusion: laser
+            m: '#'
+            pos: &id001
+            - 0
+            - 0
+            - -71.8
+            r: 2.5
+            radius: 2.5
+            shape: cylinder
+            type: positive
+            width: 1
+          - clearance: 0.2
+            depth: 100
+            extra: 5_mm_diameter_bit_main
+            h: 100
+            height: 1
+            inclusion: 3dpr
+            m: '#'
+            pos: *id001
+            r: 2.5
+            shape: cylinder
+            type: positive
+            width: 1
+          - clearance: 0.2
+            depth: 100
+            extra: 5_mm_diameter_bit_main
+            h: 100
+            height: 1
+            inclusion: 'true'
+            m: '#'
+            pos: *id001
+            r: 2.5
+            radius: 2.5
+            shape: cylinder
+            type: positive
+            width: 1
+      pos:
+      - 0
+      - 0
+      - 25
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - depth: 6
+      extra: 5_mm_diameter_bit_main
+      h: 6
+      height: 1
+      inclusion: laser
+      pos: &id002
+      - 0
+      - 0
+      - 0.0
+      r1: 1.25
+      r2: 5.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 6
+      extra: 5_mm_diameter_bit_main
+      h: 6
+      height: 1
+      inclusion: 3dpr
+      pos: *id002
+      r1: 1.25
+      r2: 5.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 6
+      extra: 5_mm_diameter_bit_main
+      h: 6
+      height: 1
+      inclusion: 'true'
+      pos: *id002
+      r1: 1.25
+      r2: 5.5
+      shape: cylinder
+      type: positive
+      width: 1
+  - - extra: 5_mm_diameter_bit_main
+      height: 6
+      pos:
+      - 0
+      - 0
+      - 6
+      r: 5.7735
+      shape: polyg
+      sides: 6
+      type: positive
+      width: 1
+  - - depth: 12.5
+      extra: 5_mm_diameter_bit_main
+      height: 1
+      id: 5.0
+      pos:
+      - 0
+      - 0
+      - 6
+      shape: oring
+      type: negative
+      width: 1
+  - - depth: 12.5
+      extra: 5_mm_diameter_bit_main
+      height: 1
+      id: 5.0
+      pos:
+      - 0
+      - 0
+      - 12
+      shape: oring
+      type: negative
+      width: 1
+  - - depth: 40
+      extra: 5_mm_diameter_bit_main
+      h: 40
+      height: 1
+      inclusion: laser
+      pos: &id003
+      - 0
+      - 0
+      - 12.0
+      r: 5.5
+      radius: 5.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 40
+      extra: 5_mm_diameter_bit_main
+      h: 40
+      height: 1
+      inclusion: 3dpr
+      pos: *id003
+      r: 5.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 40
+      extra: 5_mm_diameter_bit_main
+      h: 40
+      height: 1
+      inclusion: 'true'
+      pos: *id003
+      r: 5.5
+      radius: 5.5
+      shape: cylinder
+      type: positive
+      width: 1
+  - - extra: 5_mm_diameter_bit_main
+      height: 12
+      pos:
+      - 0
+      - 0
+      - 52
+      r: 7.50555
+      rot:
+      - 0
+      - 0
+      - 30.0
+      shape: polyg
+      sides: 6
+      type: positive
+      width: 1
+  - - depth: 5.0
+      extra: 5_mm_diameter_bit_main
+      height: 1
+      id: 5.5
+      pos:
+      - 0
+      - 0
+      - 52
+      shape: oring
+      type: negative
+      width: 1
+  - - depth: 5.0
+      extra: 5_mm_diameter_bit_main
+      height: 1
+      id: 5.5
+      pos:
+      - 0
+      - 0
+      - 64
+      shape: oring
+      type: negative
+      width: 1
+  - - depth: 35
+      extra: 5_mm_diameter_bit_main
+      h: 35
+      height: 1
+      inclusion: laser
+      pos: &id004
+      - 0
+      - 0
+      - 64.0
+      r1: 5.5
+      r2: 6.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 35
+      extra: 5_mm_diameter_bit_main
+      h: 35
+      height: 1
+      inclusion: 3dpr
+      pos: *id004
+      r1: 5.5
+      r2: 6.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 35
+      extra: 5_mm_diameter_bit_main
+      h: 35
+      height: 1
+      inclusion: 'true'
+      pos: *id004
+      r1: 5.5
+      r2: 6.5
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 6.5
+      extra: 5_mm_diameter_bit_main
+      h: 6.5
+      height: 1
+      inclusion: laser
+      pos: &id005
+      - 0
+      - 0
+      - 101.5
+      r: 6.5
+      radius: 6.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 6.5
+      extra: 5_mm_diameter_bit_main
+      h: 6.5
+      height: 1
+      inclusion: 3dpr
+      pos: *id005
+      r: 6.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 6.5
+      extra: 5_mm_diameter_bit_main
+      h: 6.5
+      height: 1
+      inclusion: 'true'
+      pos: *id005
+      r: 6.5
+      radius: 6.5
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 4.0
+      extra: 5_mm_diameter_bit_main
+      h: 4.0
+      height: 1
+      inclusion: laser
+      pos: &id006
+      - 0
+      - 0
+      - 101.5
+      r: 9.0
+      radius: 9.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 4.0
+      extra: 5_mm_diameter_bit_main
+      h: 4.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id006
+      r: 9.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 4.0
+      extra: 5_mm_diameter_bit_main
+      h: 4.0
+      height: 1
+      inclusion: 'true'
+      pos: *id006
+      r: 9.0
+      radius: 9.0
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 5.0
+      extra: 5_mm_diameter_bit_main
+      height: 1
+      id: 4.0
+      m: '#'
+      pos:
+      - 0
+      - 0
+      - 105.5
+      shape: oring
+      type: positive
+      width: 1
+  - - depth: 2.5
+      extra: 5_mm_diameter_bit_main
+      height: 1
+      id: 6.5
+      m: '#'
+      pos:
+      - 0
+      - 0
+      - 101.5
+      shape: oring
+      type: positive
+      width: 1
+  - - depth: 2.5
+      extra: 5_mm_diameter_bit_main
+      height: 1
+      id: 6.5
+      pos:
+      - 0
+      - 0
+      - 99
+      shape: oring
+      type: negative
+      width: 1
+  - - depth: 3.75
+      extra: 5_mm_diameter_bit_main
+      h: 3.75
+      height: 1
+      inclusion: laser
+      pos: &id007
+      - 0
+      - 0
+      - 99.0
+      r: 7.75
+      radius: 7.75
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 3.75
+      extra: 5_mm_diameter_bit_main
+      h: 3.75
+      height: 1
+      inclusion: 3dpr
+      pos: *id007
+      r: 7.75
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 3.75
+      extra: 5_mm_diameter_bit_main
+      h: 3.75
+      height: 1
+      inclusion: 'true'
+      pos: *id007
+      r: 7.75
+      radius: 7.75
+      shape: cylinder
+      type: positive
+      width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 0.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 10.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 20.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 30.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 40.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 50.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 60.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 70.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 80.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 90.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 100.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 110.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 120.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 130.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 140.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 150.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 160.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 170.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 180.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 190.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 200.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 210.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 220.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 230.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 240.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 250.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 260.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 270.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 280.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 290.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 300.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 310.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 320.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 330.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 340.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -0.5
+        - -0.5
+        - 99.0
+        rot:
+        - 0
+        - 0
+        - 45
+        rot_shift:
+        - - 9.7
+          - 0
+          - 0
+        - - 0
+          - 0
+          - 350.0
+        shape: cube
+        size:
+        - 1
+        - 1
+        - 9
+        type: negative
+        width: 1
+  - - objects:
+      - - clearance:
+          - top
+          - bottom
+          depth: 8
+          extra: 5_mm_diameter_bit_main
+          h: 1.7
+          height: 1
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+          width: 1
+      - - - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 5_mm_diameter_bit_main
+            h: 250
+            height: 1
+            inclusion: laser
+            pos:
+            - 0
+            - 0
+            - 0.0
+            r: 2.4
+            shape: cylinder
+            type: positive
+            width: 1
+      - - clearance: &id008
+          - top
+          - bottom
+          depth: 8
+          extra: 5_mm_diameter_bit_main
+          h: 8
+          height: 1
+          inclusion: laser
+          pos: &id009
+          - 0
+          - 0
+          - -8.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - clearance: *id008
+          depth: 8
+          extra: 5_mm_diameter_bit_main
+          h: 8
+          height: 1
+          inclusion: 3dpr
+          pos: *id009
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - clearance: *id008
+          depth: 8
+          extra: 5_mm_diameter_bit_main
+          h: 8
+          height: 1
+          inclusion: 'true'
+          pos: *id009
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+      - - objects:
+          - depth: 250
+            height: 250
+            inclusion: laser
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.1734999999999998
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - depth: 250
+            height: 250
+            inclusion: 3dpr
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.4619999999999997
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - depth: 250
+            height: 250
+            inclusion: 'true'
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.1734999999999998
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          pos:
+          - 0
+          - 0
+          - -5.5
+          rot:
+          - 0
+          - 0
+          - 0
+          type: rotation
+          typetype: positive
+      - - clearance:
+          - top
+          - bottom
+          depth: 8
+          extra: 5_mm_diameter_bit_main
+          h: 1.9
+          height: 1
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+          width: 1
+      - - - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 5_mm_diameter_bit_main
+            h: 250
+            height: 1
+            inclusion: 3dpr
+            pos:
+            - 0
+            - 0
+            - 0.0
+            r: 3.6
+            shape: cylinder
+            type: positive
+            width: 1
+      - - clearance: &id010
+          - top
+          - bottom
+          depth: 8
+          extra: 5_mm_diameter_bit_main
+          h: 8
+          height: 1
+          inclusion: laser
+          pos: &id011
+          - 0
+          - 0
+          - -8.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 1
+        - clearance: *id010
+          depth: 8
+          extra: 5_mm_diameter_bit_main
+          h: 8
+          height: 1
+          inclusion: 3dpr
+          pos: *id011
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 1
+        - clearance: *id010
+          depth: 8
+          extra: 5_mm_diameter_bit_main
+          h: 8
+          height: 1
+          inclusion: 'true'
+          pos: *id011
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 1
+      - - objects:
+          - depth: 250
+            height: 250
+            inclusion: laser
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.1734999999999998
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - depth: 250
+            height: 250
+            inclusion: 3dpr
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.4619999999999997
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - depth: 250
+            height: 250
+            inclusion: 'true'
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.1734999999999998
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          pos:
+          - 0
+          - 0
+          - -5.0
+          rot:
+          - 0
+          - 0
+          - 0
+          type: rotation
+          typetype: positive
+      - - clearance:
+          - top
+          - bottom
+          depth: 8
+          extra: 5_mm_diameter_bit_main
+          h: 1.7
+          height: 1
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+          width: 1
+      - - - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 5_mm_diameter_bit_main
+            h: 250
+            height: 1
+            inclusion: 'true'
+            pos:
+            - 0
+            - 0
+            - 0.0
+            r: 2.9
+            shape: cylinder
+            type: positive
+            width: 1
+      - - clearance: &id012
+          - top
+          - bottom
+          depth: 8
+          extra: 5_mm_diameter_bit_main
+          h: 8
+          height: 1
+          inclusion: laser
+          pos: &id013
+          - 0
+          - 0
+          - -8.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - clearance: *id012
+          depth: 8
+          extra: 5_mm_diameter_bit_main
+          h: 8
+          height: 1
+          inclusion: 3dpr
+          pos: *id013
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - clearance: *id012
+          depth: 8
+          extra: 5_mm_diameter_bit_main
+          h: 8
+          height: 1
+          inclusion: 'true'
+          pos: *id013
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+      - - objects:
+          - depth: 250
+            height: 250
+            inclusion: laser
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.1734999999999998
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - depth: 250
+            height: 250
+            inclusion: 3dpr
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.4619999999999997
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - depth: 250
+            height: 250
+            inclusion: 'true'
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.1734999999999998
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          - - - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 1
+              - - - - depth: 250
+                      height: 1
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 1
+          pos:
+          - 0
+          - 0
+          - -5.5
+          rot:
+          - 0
+          - 0
+          - 0
+          type: rotation
+          typetype: positive
+      pos:
+      - 6.5
+      - 0
+      - 58.0
+      rot:
+      - 0
+      - 90
+      - 360.0
+      type: rotation
+      typetype: negative
+  - - - extra: 5_mm_diameter_bit_main
+        height: 1
+        pos:
+        - -1.75
+        - -3.75
+        - 48.0
+        shape: cube
+        size:
+        - 3.5
+        - 7.5
+        - 72.0
+        type: negative
+        width: 1
+  components_objects:
+  - depth: 6
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 3.0
+    r1: 1.25
+    r2: 5.5
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 3
+    typ: all
+    type: positive
+    width: 1
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 6
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 6
+    radius: 5.7735
+    radius_bit_main: 2.5
+    save_type: all
+    shape: polyg
+    sides: 6
+    thickness: 3
+    typ: all
+    type: positive
+    width: 1
+  - depth: 12.5
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    id: 5.0
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 6
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oring
+    thickness: 3
+    typ: all
+    type: negative
+    width: 1
+  - depth: 12.5
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    id: 5.0
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 12
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oring
+    thickness: 3
+    typ: all
+    type: negative
+    width: 1
+  - depth: 40
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 32.0
+    radius: 5.5
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 3
+    typ: all
+    type: positive
+    width: 1
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 12
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 52
+    radius: 7.50555
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 30.0
+    save_type: all
+    shape: polyg
+    sides: 6
+    thickness: 3
+    typ: all
+    type: positive
+    width: 1
+  - depth: 5.0
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    id: 5.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 52
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oring
+    thickness: 3
+    typ: all
+    type: negative
+    width: 1
+  - depth: 5.0
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    id: 5.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 64
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oring
+    thickness: 3
+    typ: all
+    type: negative
+    width: 1
+  - depth: 35
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 81.5
+    r1: 5.5
+    r2: 6.5
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 3
+    typ: all
+    type: positive
+    width: 1
+  - depth: 6.5
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 104.75
+    radius: 6.5
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 3
+    typ: all
+    type: positive
+    width: 1
+  - depth: 4.0
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius: 9.0
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 3
+    typ: all
+    type: positive
+    width: 1
+  - depth: 5.0
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    id: 4.0
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 105.5
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oring
+    thickness: 3
+    typ: all
+    type: positive
+    width: 1
+  - depth: 2.5
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    id: 6.5
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 101.5
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oring
+    thickness: 3
+    typ: all
+    type: positive
+    width: 1
+  - depth: 2.5
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    id: 6.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 99
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oring
+    thickness: 3
+    typ: all
+    type: negative
+    width: 1
+  - depth: 3.75
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 100.875
+    radius: 7.75
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 3
+    typ: all
+    type: positive
+    width: 1
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 0.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 10.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 20.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 30.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 40.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 50.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 60.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 70.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 80.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 90.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 100.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 110.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 120.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 130.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 140.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 150.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 160.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 170.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 180.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 190.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 200.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 210.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 220.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 230.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 240.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 250.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 260.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 270.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 280.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 290.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 300.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 310.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 320.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 330.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 340.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 103.5
+    radius_bit_main: 2.5
+    rot:
+    - 0
+    - 0
+    - 45
+    rot_shift:
+    - - 9.7
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 350.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 1
+    - 1
+    - 9
+    thickness: 3
+    typ: all
+    type: n
+    width: 1
+    zz: middle
+  - clearance:
+    - top
+    - bottom
+    depth: 8
+    diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    nut: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 6.5
+    - 0
+    - 58.0
+    radius_bit_main: 2.5
+    radius_name: m3
+    rot:
+    - 0
+    - 90
+    - 360.0
+    save_type: all
+    shape: oobb_screw_countersunk
+    thickness: 3
+    typ: all
+    type: negative
+    width: 1
+  - diameter_bit_main: 5
+    extra: 5_mm_diameter_bit_main
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 48.0
+    radius_bit_main: 2.5
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 7.5
+    - 72.0
+    thickness: 3
+    typ: all
+    type: negative
+    width: 1
+  components_string:
+  - oobb_cylinder_shape_positive_type_6_depth_0_0_3.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1.25_r1_5.5_r2
+  - polyg_shape_positive_type_0_0_6_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_6_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_6_sides_5.7735_radius
+  - oring_shape_negative_type_12.5_depth_0_0_6_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_5.0_id
+  - oring_shape_negative_type_12.5_depth_0_0_12_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_5.0_id
+  - oobb_cylinder_shape_positive_type_40_depth_0_0_32.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_5.5_radius
+  - polyg_shape_positive_type_0_0_52_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_12_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_6_sides_7.50555_radius_0_0_30.0_rot
+  - oring_shape_negative_type_5.0_depth_0_0_52_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_5.5_id
+  - oring_shape_negative_type_5.0_depth_0_0_64_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_5.5_id
+  - oobb_cylinder_shape_positive_type_35_depth_0_0_81.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_5.5_r1_6.5_r2
+  - oobb_cylinder_shape_positive_type_6.5_depth_0_0_104.75_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_6.5_radius
+  - oobb_cylinder_shape_positive_type_4.0_depth_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_9.0_radius
+  - oring_shape_positive_type_5.0_depth_0_0_105.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_4.0_id
+  - oring_shape_positive_type_2.5_depth_0_0_101.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_6.5_id
+  - oring_shape_negative_type_2.5_depth_0_0_99_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_6.5_id
+  - oobb_cylinder_shape_positive_type_3.75_depth_0_0_100.875_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_7.75_radius
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_0.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_10.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_20.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_30.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_40.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_50.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_60.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_70.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_80.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_90.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_100.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_110.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_120.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_130.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_140.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_150.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_160.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_170.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_180.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_190.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_200.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_210.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_220.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_230.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_240.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_250.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_260.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_270.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_280.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_290.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_300.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_310.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_320.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_330.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_340.0_rot_shift
+  - oobb_cube_shape_n_type_0_0_103.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_350.0_rot_shift
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_8_depth_6.5_0_58.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_true_nut_'top'_'bottom'_clearance_0_90_360.0_rot
+  - oobb_cube_shape_negative_type_0_0_48.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_5_diameter_bit_main_2.5_radius_bit_main_5_mm_diameter_bit_main_extra_3.5_7.5_72.0_size
+  description: oomlout oobb tool precision screwdriver precision screwdriver 1x1x3
+  description_extra: 5_mm_diameter_bit_main_extra
+  description_main: 1_width_1_height_3_mm_depth
+  extra: 5_mm_diameter_bit_main
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_5_mm_diameter_bit_main_extra
+  height: 1
+  height_mm: 14
+  id: oobb_part_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_1_width_1_height_3_mm_depth_5_mm_diameter_bit_main_extra
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_tool_precision_screwdriver_precision_screwdriver/1_width_1_height_3_mm_depth/5_mm_diameter_bit_main_extra/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_01_01_03_ex_5_mm_diameter_bit_main
+  manufacturer: ''
+  name: Oobb Part Oomlout Oobb Tool Precision Screwdriver Precision Screwdriver 1
+    Width 1 Height 3 mm Depth 5 mm Diameter Bit Main Extra
+  name_short: Oomlout Oobb Tool Precision Screwdriver
+  part_number: ''
+  short_name: ''
+  size: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
+  thickness: 3
+  thickness_mm: 3
+  type: part
+  width: 1
+  width_mm: 14
+type: github
