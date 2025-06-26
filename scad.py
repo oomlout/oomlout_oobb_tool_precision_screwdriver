@@ -151,33 +151,17 @@ def make_scad(**kwargs):
                 sizes = ["5", "4", "3.5", "3", "2.5", "2", "1.5","0.9","0.7","1.3"]
                 for siz in sizes:
                     ex = {"shape": "hex", "size": siz}
-                ex["shape"] = "hex"
-                ex["size"] = "2.5"
-                extras.append(ex)
-                #hex 2
-                ex = {}
-                ex["shape"] = "hex"
-                ex["size"] = "2"
-                extras.append(ex)
-                #hex 1.5
-                ex = {}
-                ex["shape"] = "hex"
-                ex["size"] = "1.5"
-                extras.append(ex)
-                #phillips 0 2
-                ex = {}
-                ex["shape"] = "phillips"
-                ex["size"] = "0"
-                extras.append(ex)
-                #slot
-                ex = {}
-                ex["shape"] = "slotted"
-                ex["size"] = "2.5"
-                extras.append(ex)
-                ex = {}
-                ex["shape"] = "slotted"
-                ex["size"] = "3"
-                extras.append(ex)
+                #slotted
+                sizes = ["0.8", "1", "1.2", "1.5", "1.8", "2", "2.5", "3","4"]
+                for siz in sizes:
+                    ex = {"shape": "slotted", "size": siz}
+                    extras.append(ex)
+                #phillips
+                sizes = ["0", "00", "000", "1"]
+                for siz in sizes:
+                    ex = {"shape": "phillips", "size": siz}
+                    extras.append(ex)
+                
                 
 
 

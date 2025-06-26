@@ -19,7 +19,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_oobb_tool_precision_screwdriver
       oomp_description_extra: ''
@@ -27,11 +27,12 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 3
+      typ: all
       type: oomlout_oobb_tool_precision_screwdriver_bit_lock
       width: 1
     manufacturer: ''
@@ -193,7 +194,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_oobb_tool_precision_screwdriver
       oomp_description_extra: phillips_shape_0_size_extra
@@ -201,13 +202,14 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       shape: phillips
       siz: '0'
       thickness: 1.5
+      typ: all
       type: oomlout_oobb_tool_precision_screwdriver_label_top
       width: 1
     manufacturer: ''
@@ -237,7 +239,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_oobb_tool_precision_screwdriver
       oomp_description_extra: slotted_shape_2.5_size_extra
@@ -245,13 +247,14 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       shape: slotted
       siz: '2.5'
       thickness: 1.5
+      typ: all
       type: oomlout_oobb_tool_precision_screwdriver_label_top
       width: 1
     manufacturer: ''
@@ -281,7 +284,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_oobb_tool_precision_screwdriver
       oomp_description_extra: slotted_shape_3_size_extra
@@ -289,13 +292,14 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       shape: slotted
       siz: '3'
       thickness: 1.5
+      typ: all
       type: oomlout_oobb_tool_precision_screwdriver_label_top
       width: 1
     manufacturer: ''
@@ -324,7 +328,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_oobb_tool_precision_screwdriver
       oomp_description_extra: ''
@@ -332,11 +336,12 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 3
+      typ: all
       type: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
       width: 1
     manufacturer: ''

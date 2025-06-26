@@ -18,7 +18,7 @@ kwargs:
   height: 1
   modes:
   - 3dpr
-  navigation: false
+  navigation: true
   oomp_classification: project
   oomp_color: oomlout_oobb_tool_precision_screwdriver
   oomp_description_extra: phillips_shape_0_size_extra
@@ -26,13 +26,14 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: false
+  oomp_run: true
   oomp_size: oomlout
   oomp_type: github
   overwrite: true
   shape: phillips
   siz: '0'
   thickness: 1.5
+  typ: all
   type: oomlout_oobb_tool_precision_screwdriver_label_top
   width: 1
 manufacturer: ''

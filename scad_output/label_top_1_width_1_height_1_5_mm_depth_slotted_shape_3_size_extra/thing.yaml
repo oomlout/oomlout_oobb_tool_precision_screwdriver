@@ -18,7 +18,7 @@ kwargs:
   height: 1
   modes:
   - 3dpr
-  navigation: false
+  navigation: true
   oomp_classification: project
   oomp_color: oomlout_oobb_tool_precision_screwdriver
   oomp_description_extra: slotted_shape_3_size_extra
@@ -26,13 +26,14 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: false
+  oomp_run: true
   oomp_size: oomlout
   oomp_type: github
   overwrite: true
   shape: slotted
   siz: '3'
   thickness: 1.5
+  typ: all
   type: oomlout_oobb_tool_precision_screwdriver_label_top
   width: 1
 manufacturer: ''
@@ -128,7 +129,7 @@ thing:
     height: 1
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_oobb_tool_precision_screwdriver
     oomp_description_extra: ''
@@ -136,7 +137,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -145,10 +146,11 @@ thing:
     - 0
     - 0
     radius: 8.0
-    save_type: none
+    save_type: all
     shape: oobb_cylinder
     siz: '3'
     thickness: 1.5
+    typ: all
     type: positive
     width: 1
   - extra: slotted_shape_3_size
@@ -156,7 +158,7 @@ thing:
     height: 6
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_oobb_tool_precision_screwdriver
     oomp_description_extra: ''
@@ -164,7 +166,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -173,11 +175,12 @@ thing:
     - 0
     - -6
     radius: 3.840855
-    save_type: none
+    save_type: all
     shape: polyg
     sides: 6
     siz: '3'
     thickness: 1.5
+    typ: all
     type: p
     width: 1
   - depth: 0.5
@@ -187,7 +190,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_oobb_tool_precision_screwdriver
     oomp_description_extra: ''
@@ -195,7 +198,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -203,7 +206,7 @@ thing:
     - 0
     - -2
     - 0.25
-    save_type: none
+    save_type: all
     shape: oobb_cube
     siz: '3'
     size:
@@ -211,6 +214,7 @@ thing:
     - 2
     - 0.5
     thickness: 1.5
+    typ: all
     type: n
     width: 1
   - depth: 0.5
@@ -221,7 +225,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_oobb_tool_precision_screwdriver
     oomp_description_extra: ''
@@ -229,7 +233,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -237,19 +241,20 @@ thing:
     - 0
     - 4
     - 0.25
-    save_type: none
+    save_type: all
     shape: oobb_text
     siz: '3'
     size: 4.5
     text: '3'
     thickness: 1.5
+    typ: all
     type: n
     width: 1
   components_string:
-  - oobb_cylinder_shape_positive_type_1.5_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_8.0_radius
-  - polyg_shape_p_type_0_0_-6_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_6_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_6_sides_3.840855_radius
-  - oobb_cube_shape_n_type_0.5_depth_0_-2_0.25_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_8_2_0.5_size
-  - oobb_text_shape_n_type_0.5_depth_0_4_0.25_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_3_text_segoiui:bold_font_4.5_size
+  - oobb_cylinder_shape_positive_type_1.5_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_8.0_radius
+  - polyg_shape_p_type_0_0_-6_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_6_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_6_sides_3.840855_radius
+  - oobb_cube_shape_n_type_0.5_depth_0_-2_0.25_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_8_2_0.5_size
+  - oobb_text_shape_n_type_0.5_depth_0_4_0.25_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_3_text_segoiui:bold_font_4.5_size
   description: oomlout oobb tool precision screwdriver label top 1x1x1.5
   description_extra: slotted_shape_3_size_extra
   description_main: 1_width_1_height_1_5_mm_depth
