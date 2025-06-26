@@ -85,33 +85,33 @@ thing:
       - 0
       - 0
       - -6
-      r: 3.8658550000000003
+      r: 3.840855
       shape: polyg
       sides: 6
       type: positive
       width: 1
   - - extra: hex_shape_2.5_size
-      height: 1
+      height: 0.5
       m: '#'
       pos:
       - 0
       - -3
-      - -0.25
+      - 0.25
       r: 4.5
       shape: polyg
       sides: 6
       type: negative
       width: 1
-  - - depth: 1
+  - - depth: 0.5
       extra: hex_shape_2.5_size
       font: SegoiUI:Bold
       halign: center
-      height: 1
+      height: 0.5
       m: '#'
       pos:
       - 0
-      - 4
-      - -0.25
+      - 3.5
+      - 0.25
       shape: text
       size: 4
       text: '2.5'
@@ -169,7 +169,7 @@ thing:
     - 0
     - 0
     - -6
-    radius: 3.8658550000000003
+    radius: 3.840855
     save_type: none
     shape: polyg
     sides: 6
@@ -179,7 +179,7 @@ thing:
     width: 1
   - extra: hex_shape_2.5_size
     filter: ''
-    height: 1
+    height: 0.5
     m: '#'
     modes:
     - 3dpr
@@ -198,7 +198,7 @@ thing:
     pos:
     - 0
     - -3
-    - -0.25
+    - 0.25
     radius: 4.5
     save_type: none
     shape: polyg
@@ -207,7 +207,7 @@ thing:
     thickness: 1.5
     type: n
     width: 1
-  - depth: 1
+  - depth: 0.5
     extra: hex_shape_2.5_size
     filter: ''
     font: SegoiUI:Bold
@@ -229,8 +229,8 @@ thing:
     overwrite: true
     pos:
     - 0
-    - 4
-    - -0.25
+    - 3.5
+    - 0.25
     save_type: none
     shape: oobb_text
     siz: '2.5'
@@ -241,9 +241,9 @@ thing:
     width: 1
   components_string:
   - oobb_cylinder_shape_positive_type_1.5_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_2.5_siz_hex_shape_2.5_size_extra_8.0_radius
-  - polyg_shape_p_type_0_0_-6_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_6_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_2.5_siz_hex_shape_2.5_size_extra_6_sides_3.8658550000000003_radius
-  - polyg_shape_n_type_0_-3_-0.25_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_2.5_siz_hex_shape_2.5_size_extra_6_sides_4.5_radius
-  - oobb_text_shape_n_type_1_depth_0_4_-0.25_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_2.5_siz_hex_shape_2.5_size_extra_2.5_text_segoiui:bold_font_4_size
+  - polyg_shape_p_type_0_0_-6_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_6_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_2.5_siz_hex_shape_2.5_size_extra_6_sides_3.840855_radius
+  - polyg_shape_n_type_0_-3_0.25_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_0.5_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_2.5_siz_hex_shape_2.5_size_extra_6_sides_4.5_radius
+  - oobb_text_shape_n_type_0.5_depth_0_3.5_0.25_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_2.5_siz_hex_shape_2.5_size_extra_2.5_text_segoiui:bold_font_4_size
   description: oomlout oobb tool precision screwdriver label top 1x1x1.5
   description_extra: hex_shape_2.5_size_extra
   description_main: 1_width_1_height_1_5_mm_depth

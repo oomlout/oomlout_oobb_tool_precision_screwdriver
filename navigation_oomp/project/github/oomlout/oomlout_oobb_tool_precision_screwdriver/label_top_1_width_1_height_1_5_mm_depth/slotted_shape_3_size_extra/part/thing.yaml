@@ -86,36 +86,36 @@ thing:
       - 0
       - 0
       - -6
-      r: 3.8658550000000003
+      r: 3.840855
       shape: polyg
       sides: 6
       type: positive
       width: 1
-  - - - depth: 1
+  - - - depth: 0.5
         extra: slotted_shape_3_size
         height: 1
         m: '#'
         pos:
         - -4.0
-        - -4.0
-        - -0.25
+        - -3.0
+        - 0.25
         shape: cube
         size:
         - 8
         - 2
-        - 1
+        - 0.5
         type: negative
         width: 1
-  - - depth: 1
+  - - depth: 0.5
       extra: slotted_shape_3_size
       font: SegoiUI:Bold
       halign: center
-      height: 1
+      height: 0.5
       m: '#'
       pos:
       - 0
-      - 4.5
-      - -0.25
+      - 4
+      - 0.25
       shape: text
       size: 4.5
       text: '3'
@@ -174,7 +174,7 @@ thing:
     - 0
     - 0
     - -6
-    radius: 3.8658550000000003
+    radius: 3.840855
     save_type: all
     shape: polyg
     sides: 6
@@ -183,7 +183,7 @@ thing:
     typ: all
     type: p
     width: 1
-  - depth: 1
+  - depth: 0.5
     extra: slotted_shape_3_size
     filter: ''
     height: 1
@@ -204,20 +204,20 @@ thing:
     overwrite: true
     pos:
     - 0
-    - -3
-    - -0.25
+    - -2
+    - 0.25
     save_type: all
     shape: oobb_cube
     siz: '3'
     size:
     - 8
     - 2
-    - 1
+    - 0.5
     thickness: 1.5
     typ: all
     type: n
     width: 1
-  - depth: 1
+  - depth: 0.5
     extra: slotted_shape_3_size
     filter: ''
     font: SegoiUI:Bold
@@ -239,8 +239,8 @@ thing:
     overwrite: true
     pos:
     - 0
-    - 4.5
-    - -0.25
+    - 4
+    - 0.25
     save_type: all
     shape: oobb_text
     siz: '3'
@@ -252,9 +252,9 @@ thing:
     width: 1
   components_string:
   - oobb_cylinder_shape_positive_type_1.5_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_8.0_radius
-  - polyg_shape_p_type_0_0_-6_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_6_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_6_sides_3.8658550000000003_radius
-  - oobb_cube_shape_n_type_1_depth_0_-3_-0.25_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_8_2_1_size
-  - oobb_text_shape_n_type_1_depth_0_4.5_-0.25_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_3_text_segoiui:bold_font_4.5_size
+  - polyg_shape_p_type_0_0_-6_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_6_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_6_sides_3.840855_radius
+  - oobb_cube_shape_n_type_0.5_depth_0_-2_0.25_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_8_2_0.5_size
+  - oobb_text_shape_n_type_0.5_depth_0_4_0.25_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_3_siz_slotted_shape_3_size_extra_3_text_segoiui:bold_font_4.5_size
   description: oomlout oobb tool precision screwdriver label top 1x1x1.5
   description_extra: slotted_shape_3_size_extra
   description_main: 1_width_1_height_1_5_mm_depth

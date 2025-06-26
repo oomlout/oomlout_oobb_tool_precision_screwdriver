@@ -147,8 +147,10 @@ def make_scad(**kwargs):
         if True:
             extras = []
             if True:
-                #hex 2.5
-                ex = {}
+                #hex
+                sizes = ["5", "4", "3.5", "3", "2.5", "2", "1.5","0.9","0.7","1.3"]
+                for siz in sizes:
+                    ex = {"shape": "hex", "size": siz}
                 ex["shape"] = "hex"
                 ex["size"] = "2.5"
                 extras.append(ex)
@@ -304,7 +306,7 @@ def get_label_top(thing, **kwargs):
     
     #add hex piece
     if True:
-        clearance = 0.2
+        clearance = 0.2 - 0.025
     #hex bit is 0.25 inch6.35 mm
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "p"
@@ -323,7 +325,7 @@ def get_label_top(thing, **kwargs):
 
 
     #add shape
-    depth_indent = 1
+    depth_indent = 0.5
     if True:
         
         if shape == "hex":
@@ -350,7 +352,7 @@ def get_label_top(thing, **kwargs):
             p3["size"] = size
             p3["depth"] = depth_indent
             pos1 = copy.deepcopy(pos)       
-            pos1[1] += -3
+            pos1[1] += -2
             pos1[2] += depth/2 - depth_indent
             p3["pos"] = pos1
             p3["m"] = "#"
@@ -395,9 +397,9 @@ def get_label_top(thing, **kwargs):
         p3["depth"] = depth_indent
         pos1 = copy.deepcopy(pos)       
         if len(siz) == 1:   
-            pos1[1] += 4.5
-        else:
             pos1[1] += 4
+        else:
+            pos1[1] += 3.5
         pos1[2] += depth/2 - depth_indent
         p3["pos"] = pos1
         p3["text"] = siz
