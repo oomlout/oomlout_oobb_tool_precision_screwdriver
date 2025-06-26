@@ -147,6 +147,11 @@ def make_scad(**kwargs):
         if True:
             extras = []
             if True:
+                #hex 2.5
+                ex = {}
+                ex["shape"] = "hex"
+                ex["size"] = "2.5"
+                extras.append(ex)
                 #hex 2
                 ex = {}
                 ex["shape"] = "hex"
@@ -166,6 +171,10 @@ def make_scad(**kwargs):
                 ex = {}
                 ex["shape"] = "slotted"
                 ex["size"] = "2.5"
+                extras.append(ex)
+                ex = {}
+                ex["shape"] = "slotted"
+                ex["size"] = "3"
                 extras.append(ex)
                 
 
@@ -285,7 +294,7 @@ def get_label_top(thing, **kwargs):
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "positive"
     p3["shape"] = f"oobb_cylinder"    
-    p3["radius"] = 18/2
+    p3["radius"] = 16/2
     p3["depth"] = depth
     #p3["holes"] = True         uncomment to include default holes
     #p3["m"] = "#"
@@ -295,13 +304,14 @@ def get_label_top(thing, **kwargs):
     
     #add hex piece
     if True:
-        clearance = -0.5
+        clearance = 0.2
     #hex bit is 0.25 inch6.35 mm
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "p"
         p3["shape"] = f"polyg"
         p3["sides"] = 6
-        p3["radius"] = (0.25 * 25.4) / 2  * 1.1546 + clearance# 7.32 hopefully 
+        rad =  (0.25 * 25.4) / 2  * 1.1546 + clearance# 7.32 hopefully 
+        p3["radius"] = rad
         dep = 6
         p3["height"] = dep
         #p3["depth"] = 4
@@ -334,7 +344,7 @@ def get_label_top(thing, **kwargs):
             p3["type"] = "n"
             p3["shape"] = f"oobb_cube"
             wid = 8
-            hei = 2.5
+            hei = 2
             dep = depth_indent
             size = [wid, hei, dep]
             p3["size"] = size
@@ -350,7 +360,7 @@ def get_label_top(thing, **kwargs):
             p3["type"] = "n"
             p3["shape"] = f"oobb_cube"
             wid = 8
-            hei = 2.5
+            hei = 2
             dep = depth_indent
             size = [wid, hei, dep]
             p3["size"] = size
@@ -364,7 +374,7 @@ def get_label_top(thing, **kwargs):
             p3 = copy.deepcopy(kwargs)
             p3["type"] = "n"
             p3["shape"] = f"oobb_cube"
-            wid = 2.5
+            wid = 2
             hei = 8
             dep = depth_indent
             size = [wid, hei, dep]
@@ -384,15 +394,18 @@ def get_label_top(thing, **kwargs):
         p3["shape"] = f"oobb_text"
         p3["depth"] = depth_indent
         pos1 = copy.deepcopy(pos)       
-        pos1[1] += 5
+        if len(siz) == 1:   
+            pos1[1] += 4.5
+        else:
+            pos1[1] += 4
         pos1[2] += depth/2 - depth_indent
         p3["pos"] = pos1
         p3["text"] = siz
         p3["font"] = "SegoiUI:Bold"
         if len(siz) == 1:
-            p3["size"] = 5
+            p3["size"] = 4.5
         else:
-            p3["size"] = 3.5
+            p3["size"] = 4
         p3["m"] = "#"
         
         oobb_base.append_full(thing,**p3)
@@ -906,7 +919,8 @@ def get_tool_screwdriver_bit_quarter_inch_drive_100_mm_depth(thing, **kwargs):
         p3["type"] = "p"
         p3["shape"] = f"polyg"
         p3["sides"] = 6
-        p3["radius"] = (0.25 * 25.4) / 2  * 1.1546 + clearance# 7.32 hopefully 
+        rad = (0.25 * 25.4) / 2  * 1.1546 + clearance# 7.32 hopefully 
+        p3["radius"] = rad
         height_total = 28 + clearance 
         height_total_local = height_total       
         if clearance_top:
