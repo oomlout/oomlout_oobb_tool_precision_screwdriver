@@ -1,3 +1,7 @@
+* [2.25_mm_diameter_bit_main_extra](2.25_mm_diameter_bit_main_extra)
+* [2.5_mm_diameter_bit_main_extra](2.5_mm_diameter_bit_main_extra)
+* [2.75_mm_diameter_bit_main_extra](2.75_mm_diameter_bit_main_extra)
+* [2_mm_diameter_bit_main_extra](2_mm_diameter_bit_main_extra)
 * [3.25_mm_diameter_bit_main_extra](3.25_mm_diameter_bit_main_extra)
 * [3.5_mm_diameter_bit_main_extra](3.5_mm_diameter_bit_main_extra)
 * [3.75_mm_diameter_bit_main_extra](3.75_mm_diameter_bit_main_extra)
