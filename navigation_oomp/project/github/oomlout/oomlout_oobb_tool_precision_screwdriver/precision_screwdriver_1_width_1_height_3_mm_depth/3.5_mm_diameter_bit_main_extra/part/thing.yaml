@@ -82,8 +82,8 @@ thing:
             - 0
             - 0
             - -71.8
-            r: 1.75
-            radius: 1.75
+            r: 1.875
+            radius: 1.875
             shape: cylinder
             type: positive
             width: 1
@@ -95,7 +95,7 @@ thing:
             inclusion: 3dpr
             m: '#'
             pos: *id001
-            r: 1.75
+            r: 1.875
             shape: cylinder
             type: positive
             width: 1
@@ -107,8 +107,8 @@ thing:
             inclusion: 'true'
             m: '#'
             pos: *id001
-            r: 1.75
-            radius: 1.75
+            r: 1.875
+            radius: 1.875
             shape: cylinder
             type: positive
             width: 1

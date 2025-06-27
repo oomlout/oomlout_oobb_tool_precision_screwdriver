@@ -993,7 +993,7 @@ def get_tool_screwdriver_bit_quarter_inch_drive_100_mm_depth(thing, **kwargs):
         dep = length
         p3["depth"] = dep
         
-        p3["radius"] = radius_bit_main #+ clearance / 2
+        p3["radius"] = radius_bit_main + 0.25 / 2
         pos1 = copy.deepcopy(pos)         
         pos1[2] += -dep/2 + height_total
         p3["pos"] = pos1
