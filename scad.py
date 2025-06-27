@@ -115,7 +115,7 @@ def make_scad(**kwargs):
         
 
         #screwdriver
-        if True:
+        if False:
             diameter_bit_mains = [3,3.25,3.5,3.75,4,4.25,4.5,4.75,5] 
             for diameter_bit_main in diameter_bit_mains:
                 part = copy.deepcopy(part_default)
@@ -302,7 +302,10 @@ def get_label_top(thing, **kwargs):
         #p3["holes"] = True         uncomment to include default holes
         #p3["m"] = "#"
         pos1 = copy.deepcopy(pos)         
+        pos1[2] += depth/2
         p3["pos"] = pos1
+        
+
         oobb_base.append_full(thing,**p3)
         #oring for curve#
         p3 = copy.deepcopy(kwargs)
@@ -311,7 +314,7 @@ def get_label_top(thing, **kwargs):
         p3["depth"] = depth*2
         p3["id"] = ((diameter_label) - depth*4) / 2
         pos1 = copy.deepcopy(pos)
-        pos1[2] += -depth/2
+        pos1[2] += 0
         p3["pos"] = pos1
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
@@ -353,7 +356,7 @@ def get_label_top(thing, **kwargs):
 
 
     #add shape
-    depth_indent = 0.25
+    depth_indent = 1
     if True:
         
         if shape == "hex":
@@ -365,7 +368,7 @@ def get_label_top(thing, **kwargs):
             p3["height"] = depth_indent
             pos1 = copy.deepcopy(pos)       
             pos1[1] += -3 #+ 45
-            pos1[2] += depth/2 - depth_indent
+            pos1[2] += depth - depth_indent
             p3["pos"] = pos1
             p3["m"] = "#"    
             oobb_base.append_full(thing,**p3)
@@ -381,7 +384,7 @@ def get_label_top(thing, **kwargs):
             p3["depth"] = depth_indent
             pos1 = copy.deepcopy(pos)       
             pos1[1] += -2
-            pos1[2] += depth/2 - depth_indent
+            pos1[2] += depth - depth_indent
             p3["pos"] = pos1
             p3["m"] = "#"
             oobb_base.append_full(thing,**p3)
@@ -397,7 +400,7 @@ def get_label_top(thing, **kwargs):
             p3["depth"] = depth_indent
             pos1 = copy.deepcopy(pos)       
             pos1[1] += -3
-            pos1[2] += depth/2 - depth_indent
+            pos1[2] += depth - depth_indent
             p3["pos"] = pos1
             p3["m"] = "#"
             oobb_base.append_full(thing,**p3)
@@ -412,7 +415,7 @@ def get_label_top(thing, **kwargs):
             p3["depth"] = depth_indent
             pos1 = copy.deepcopy(pos)       
             pos1[1] += -3
-            pos1[2] += depth/2 - depth_indent
+            pos1[2] += depth - depth_indent
             p3["pos"] = pos1
             p3["m"] = "#"
             oobb_base.append_full(thing,**p3)
@@ -428,7 +431,7 @@ def get_label_top(thing, **kwargs):
             pos1[1] += 4
         else:
             pos1[1] += 3.5
-        pos1[2] += depth/2 - depth_indent
+        pos1[2] += depth - depth_indent
         p3["pos"] = pos1
         p3["text"] = siz
         p3["font"] = "SegoiUI:Bold"
@@ -796,6 +799,7 @@ def get_precision_screwdriver(thing, **kwargs):
         p3["nut"] = True
         p3["clearance"] = ["top","bottom"]
         p3["radius_name"] = "m3"
+        p3["clearance_tightness"] = -0.2
         pos1 = copy.deepcopy(pos)
         y_shift = (shaft_top_radius_bottom - screw_lock_depth)
         pos1[0] += 0 + dep/2 - y_shift#+ 45 
@@ -804,6 +808,7 @@ def get_precision_screwdriver(thing, **kwargs):
         p3["pos"] = pos1
         rot1 = copy.deepcopy(rot)
         rot1[1] += 90
+        #rot1[0] += 360/12
         rot1[2] += 10
         p3["rot"] = rot1
         #p3["m"] = "#"

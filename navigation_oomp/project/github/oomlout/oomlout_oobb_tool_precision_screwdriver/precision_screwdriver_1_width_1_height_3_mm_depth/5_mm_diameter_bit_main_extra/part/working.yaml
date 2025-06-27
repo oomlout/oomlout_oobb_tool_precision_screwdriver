@@ -27,13 +27,12 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: true
+  oomp_run: false
   oomp_size: oomlout
   oomp_type: github
   overwrite: true
   radius_bit_main: 2.5
   thickness: 3
-  typ: all
   type: oomlout_oobb_tool_precision_screwdriver_precision_screwdriver
   width: 1
 manufacturer: ''

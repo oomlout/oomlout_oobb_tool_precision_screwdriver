@@ -1384,7 +1384,7 @@ thing:
             - 0
             - 0
             - -250
-            r: 3.1734999999999998
+            r: 2.9734999999999996
             shape: polyg
             sides: 6
             type: positive
@@ -1464,7 +1464,7 @@ thing:
             - 0
             - 0
             - -250
-            r: 3.4619999999999997
+            r: 3.2619999999999996
             shape: polyg
             sides: 6
             type: positive
@@ -1544,7 +1544,7 @@ thing:
             - 0
             - 0
             - -250
-            r: 3.1734999999999998
+            r: 2.9734999999999996
             shape: polyg
             sides: 6
             type: positive
@@ -1708,7 +1708,7 @@ thing:
             - 0
             - 0
             - -250
-            r: 3.1734999999999998
+            r: 2.9734999999999996
             shape: polyg
             sides: 6
             type: positive
@@ -1788,7 +1788,7 @@ thing:
             - 0
             - 0
             - -250
-            r: 3.4619999999999997
+            r: 3.2619999999999996
             shape: polyg
             sides: 6
             type: positive
@@ -1868,7 +1868,7 @@ thing:
             - 0
             - 0
             - -250
-            r: 3.1734999999999998
+            r: 2.9734999999999996
             shape: polyg
             sides: 6
             type: positive
@@ -2032,7 +2032,7 @@ thing:
             - 0
             - 0
             - -250
-            r: 3.1734999999999998
+            r: 2.9734999999999996
             shape: polyg
             sides: 6
             type: positive
@@ -2112,7 +2112,7 @@ thing:
             - 0
             - 0
             - -250
-            r: 3.4619999999999997
+            r: 3.2619999999999996
             shape: polyg
             sides: 6
             type: positive
@@ -2192,7 +2192,7 @@ thing:
             - 0
             - 0
             - -250
-            r: 3.1734999999999998
+            r: 2.9734999999999996
             shape: polyg
             sides: 6
             type: positive
@@ -4344,6 +4344,7 @@ thing:
   - clearance:
     - top
     - bottom
+    clearance_tightness: -0.2
     depth: 8
     diameter_bit_main: 4.5
     extra: 4.5_mm_diameter_bit_main
@@ -4463,7 +4464,7 @@ thing:
   - oobb_cube_shape_n_type_0_0_103.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_4.5_diameter_bit_main_2.25_radius_bit_main_4.5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_330.0_rot_shift
   - oobb_cube_shape_n_type_0_0_103.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_4.5_diameter_bit_main_2.25_radius_bit_main_4.5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_340.0_rot_shift
   - oobb_cube_shape_n_type_0_0_103.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_4.5_diameter_bit_main_2.25_radius_bit_main_4.5_mm_diameter_bit_main_extra_1_1_9_size_middle_zz_0_0_45_rot_9.7_0_0_0_0_350.0_rot_shift
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_8_depth_6.5_0_58.0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_4.5_diameter_bit_main_2.25_radius_bit_main_4.5_mm_diameter_bit_main_extra_true_nut_'top'_'bottom'_clearance_0_90_360.0_rot
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_8_depth_6.5_0_58.0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_4.5_diameter_bit_main_2.25_radius_bit_main_4.5_mm_diameter_bit_main_extra_true_nut_'top'_'bottom'_clearance_-0.2_clearance_tightness_0_90_360.0_rot
   - oobb_cube_shape_negative_type_0_0_48.0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_4.5_diameter_bit_main_2.25_radius_bit_main_4.5_mm_diameter_bit_main_extra_3.5_7.5_72.0_size
   description: oomlout oobb tool precision screwdriver precision screwdriver 1x1x3
   description_extra: 4.5_mm_diameter_bit_main_extra

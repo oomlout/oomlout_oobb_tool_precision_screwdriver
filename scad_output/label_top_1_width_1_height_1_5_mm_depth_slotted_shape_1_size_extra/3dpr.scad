@@ -4,14 +4,10 @@ $fn = 50;
 union() {
 	difference() {
 		union() {
-			translate(v = [0, 0, -0.7500000000]) {
-				cylinder(h = 1.5000000000, r = 6.5000000000);
-			}
-			translate(v = [0, 0, -0.7500000000]) {
-				rotate_extrude(angle = 360) {
-					translate(v = [6.5000000000, 0, 0]) {
-						circle(r = 1.5000000000);
-					}
+			cylinder(h = 1.5000000000, r = 6.5000000000);
+			rotate_extrude(angle = 360) {
+				translate(v = [6.5000000000, 0, 0]) {
+					circle(r = 1.5000000000);
 				}
 			}
 		}
@@ -20,10 +16,10 @@ union() {
 				cube(size = [50, 50, 50]);
 			}
 			#translate(v = [-3.0000000000, -2.7500000000, 0.5000000000]) {
-				cube(size = [6, 1.5000000000, 0.2500000000]);
+				cube(size = [6, 1.5000000000, 1]);
 			}
 			#translate(v = [0, 4, 0.5000000000]) {
-				linear_extrude(height = 0.2500000000) {
+				linear_extrude(height = 1) {
 					text(font = "SegoiUI:Bold", halign = "center", size = 4.5000000000, text = "1", valign = "center");
 				}
 			}

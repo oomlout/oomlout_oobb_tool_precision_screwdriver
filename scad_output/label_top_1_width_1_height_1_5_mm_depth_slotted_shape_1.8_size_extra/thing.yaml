@@ -52,7 +52,7 @@ thing:
       pos: &id001
       - 0
       - 0
-      - -0.75
+      - 0.0
       r: 6.5
       radius: 6.5
       shape: cylinder
@@ -86,7 +86,7 @@ thing:
       pos:
       - 0
       - 0
-      - -0.75
+      - 0
       shape: oring
       type: positive
       width: 1
@@ -114,7 +114,7 @@ thing:
       sides: 6
       type: positive_positive
       width: 1
-  - - - depth: 0.25
+  - - - depth: 1
         extra: slotted_shape_1.8_size
         height: 1
         m: '#'
@@ -126,14 +126,14 @@ thing:
         size:
         - 6
         - 1.5
-        - 0.25
+        - 1
         type: negative
         width: 1
-  - - depth: 0.25
+  - - depth: 1
       extra: slotted_shape_1.8_size
       font: SegoiUI:Bold
       halign: center
-      height: 0.25
+      height: 1
       m: '#'
       pos:
       - 0
@@ -167,7 +167,7 @@ thing:
     pos:
     - 0
     - 0
-    - 0
+    - 0.75
     radius: 6.5
     save_type: none
     shape: oobb_cylinder
@@ -197,7 +197,7 @@ thing:
     pos:
     - 0
     - 0
-    - -0.75
+    - 0
     save_type: none
     shape: oring
     siz: '1.8'
@@ -264,7 +264,7 @@ thing:
     thickness: 1.5
     type: positive_positive
     width: 1
-  - depth: 0.25
+  - depth: 1
     extra: slotted_shape_1.8_size
     filter: ''
     height: 1
@@ -293,11 +293,11 @@ thing:
     size:
     - 6
     - 1.5
-    - 0.25
+    - 1
     thickness: 1.5
     type: n
     width: 1
-  - depth: 0.25
+  - depth: 1
     extra: slotted_shape_1.8_size
     filter: ''
     font: SegoiUI:Bold
@@ -330,12 +330,12 @@ thing:
     type: n
     width: 1
   components_string:
-  - oobb_cylinder_shape_positive_type_1.5_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.8_siz_slotted_shape_1.8_size_extra_6.5_radius
-  - oring_shape_positive_type_3.0_depth_0_0_-0.75_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.8_siz_slotted_shape_1.8_size_extra_5.0_id
+  - oobb_cylinder_shape_positive_type_1.5_depth_0_0_0.75_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.8_siz_slotted_shape_1.8_size_extra_6.5_radius
+  - oring_shape_positive_type_3.0_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.8_siz_slotted_shape_1.8_size_extra_5.0_id
   - oobb_cube_shape_negative_type_0_0_-50_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.8_siz_slotted_shape_1.8_size_extra_50_50_50_size
   - polyg_shape_positive_positive_type_0_0_-6_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_6_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.8_siz_slotted_shape_1.8_size_extra_6_sides_3.8658550000000003_radius
-  - oobb_cube_shape_n_type_0.25_depth_0_-2_0.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.8_siz_slotted_shape_1.8_size_extra_6_1.5_0.25_size
-  - oobb_text_shape_n_type_0.25_depth_0_3.5_0.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.8_siz_slotted_shape_1.8_size_extra_1.8_text_segoiui:bold_font_4_size
+  - oobb_cube_shape_n_type_1_depth_0_-2_0.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.8_siz_slotted_shape_1.8_size_extra_6_1.5_1_size
+  - oobb_text_shape_n_type_1_depth_0_3.5_0.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.8_siz_slotted_shape_1.8_size_extra_1.8_text_segoiui:bold_font_4_size
   description: oomlout oobb tool precision screwdriver label top 1x1x1.5
   description_extra: slotted_shape_1.8_size_extra
   description_main: 1_width_1_height_1_5_mm_depth
