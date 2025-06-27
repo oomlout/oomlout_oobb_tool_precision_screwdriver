@@ -1,0 +1,418 @@
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+description_extra: phillips_shape_0_size_extra
+description_main: label_top_1_width_1_height_1_5_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_0_size_extra
+id_oobb: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_0_size_extra
+kwargs:
+  extra: phillips_shape_0_size
+  filter: ''
+  height: 1
+  modes:
+  - 3dpr
+  navigation: true
+  oomp_classification: project
+  oomp_color: oomlout_oobb_tool_precision_screwdriver
+  oomp_description_extra: phillips_shape_0_size_extra
+  oomp_description_main: label_top_1_width_1_height_1_5_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: true
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  shape: phillips
+  siz: '0'
+  thickness: 1.5
+  typ: all
+  type: oomlout_oobb_tool_precision_screwdriver_label_top
+  width: 1
+manufacturer: ''
+name: label_top
+part_number: ''
+project_name: C:\gh\oomlout_oobb_tool_precision_screwdriver
+size: oomlout
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 1.5
+      extra: phillips_shape_0_size
+      h: 1.5
+      height: 1
+      inclusion: laser
+      pos: &id001
+      - 0
+      - 0
+      - 0.0
+      r: 6.5
+      radius: 6.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.5
+      extra: phillips_shape_0_size
+      h: 1.5
+      height: 1
+      inclusion: 3dpr
+      pos: *id001
+      r: 6.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.5
+      extra: phillips_shape_0_size
+      h: 1.5
+      height: 1
+      inclusion: 'true'
+      pos: *id001
+      r: 6.5
+      radius: 6.5
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 3.0
+      extra: phillips_shape_0_size
+      height: 1
+      id: 5.0
+      pos:
+      - 0
+      - 0
+      - 0
+      shape: oring
+      type: positive
+      width: 1
+  - - - extra: phillips_shape_0_size
+        height: 1
+        pos:
+        - -25.0
+        - -25.0
+        - -50
+        shape: cube
+        size:
+        - 50
+        - 50
+        - 50
+        type: negative
+        width: 1
+  - - extra: phillips_shape_0_size
+      height: 6
+      pos:
+      - 0
+      - 0
+      - -6
+      r: 3.8658550000000003
+      shape: polyg
+      sides: 6
+      type: positive_positive
+      width: 1
+  - - - depth: 1
+        extra: phillips_shape_0_size
+        height: 1
+        m: '#'
+        pos:
+        - -3.0
+        - -3.75
+        - 0.5
+        shape: cube
+        size:
+        - 6
+        - 1.5
+        - 1
+        type: negative
+        width: 1
+  - - - depth: 1
+        extra: phillips_shape_0_size
+        height: 1
+        m: '#'
+        pos:
+        - -0.75
+        - -6.0
+        - 0.5
+        shape: cube
+        size:
+        - 1.5
+        - 6
+        - 1
+        type: negative
+        width: 1
+  - - depth: 1
+      extra: phillips_shape_0_size
+      font: SegoiUI:Bold
+      halign: center
+      height: 1
+      m: '#'
+      pos:
+      - 0
+      - 4
+      - 0.5
+      shape: text
+      size: 4.5
+      text: '0'
+      type: negative
+      valign: center
+      width: 1
+  components_objects:
+  - depth: 1.5
+    extra: phillips_shape_0_size
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0.75
+    radius: 6.5
+    save_type: all
+    shape: oobb_cylinder
+    siz: '0'
+    thickness: 1.5
+    typ: all
+    type: positive
+    width: 1
+  - depth: 3.0
+    extra: phillips_shape_0_size
+    filter: ''
+    height: 1
+    id: 5.0
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    save_type: all
+    shape: oring
+    siz: '0'
+    thickness: 1.5
+    typ: all
+    type: positive
+    width: 1
+  - extra: phillips_shape_0_size
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - -50
+    save_type: all
+    shape: oobb_cube
+    siz: '0'
+    size:
+    - 50
+    - 50
+    - 50
+    thickness: 1.5
+    typ: all
+    type: negative
+    width: 1
+  - extra: phillips_shape_0_size
+    filter: ''
+    height: 6
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - -6
+    radius: 3.8658550000000003
+    save_type: all
+    shape: polyg
+    sides: 6
+    siz: '0'
+    thickness: 1.5
+    typ: all
+    type: positive_positive
+    width: 1
+  - depth: 1
+    extra: phillips_shape_0_size
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - -3
+    - 0.5
+    save_type: all
+    shape: oobb_cube
+    siz: '0'
+    size:
+    - 6
+    - 1.5
+    - 1
+    thickness: 1.5
+    typ: all
+    type: n
+    width: 1
+  - depth: 1
+    extra: phillips_shape_0_size
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - -3
+    - 0.5
+    save_type: all
+    shape: oobb_cube
+    siz: '0'
+    size:
+    - 1.5
+    - 6
+    - 1
+    thickness: 1.5
+    typ: all
+    type: n
+    width: 1
+  - depth: 1
+    extra: phillips_shape_0_size
+    filter: ''
+    font: SegoiUI:Bold
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_tool_precision_screwdriver
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 4
+    - 0.5
+    save_type: all
+    shape: oobb_text
+    siz: '0'
+    size: 4.5
+    text: '0'
+    thickness: 1.5
+    typ: all
+    type: n
+    width: 1
+  components_string:
+  - oobb_cylinder_shape_positive_type_1.5_depth_0_0_0.75_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_0_siz_phillips_shape_0_size_extra_6.5_radius
+  - oring_shape_positive_type_3.0_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_0_siz_phillips_shape_0_size_extra_5.0_id
+  - oobb_cube_shape_negative_type_0_0_-50_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_0_siz_phillips_shape_0_size_extra_50_50_50_size
+  - polyg_shape_positive_positive_type_0_0_-6_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_6_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_0_siz_phillips_shape_0_size_extra_6_sides_3.8658550000000003_radius
+  - oobb_cube_shape_n_type_1_depth_0_-3_0.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_0_siz_phillips_shape_0_size_extra_6_1.5_1_size
+  - oobb_cube_shape_n_type_1_depth_0_-3_0.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_0_siz_phillips_shape_0_size_extra_1.5_6_1_size
+  - oobb_text_shape_n_type_1_depth_0_4_0.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_0_siz_phillips_shape_0_size_extra_0_text_segoiui:bold_font_4.5_size
+  description: oomlout oobb tool precision screwdriver label top 1x1x1.5
+  description_extra: phillips_shape_0_size_extra
+  description_main: 1_width_1_height_1_5_mm_depth
+  extra: phillips_shape_0_size
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_0_size_extra
+  height: 1
+  height_mm: 14
+  id: oobb_part_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_0_size_extra
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_tool_precision_screwdriver_label_top/1_width_1_height_1_5_mm_depth/phillips_shape_0_size_extra/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_tool_precision_screwdriver_label_top_01_01_1d5_ex_phillips_shape_0_size
+  manufacturer: ''
+  name: Oobb Part Oomlout Oobb Tool Precision Screwdriver Label Top 1 Width 1 Height
+    1 5 mm Depth Phillips Shape 0 Size Extra
+  name_short: Oomlout Oobb Tool Precision Screwdriver
+  part_number: ''
+  short_name: ''
+  size: oomlout_oobb_tool_precision_screwdriver_label_top
+  thickness: 1.5
+  thickness_mm: 1.5
+  type: part
+  width: 1
+  width_mm: 14
+type: github

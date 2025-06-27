@@ -115,7 +115,7 @@ def make_scad(**kwargs):
         
 
         #screwdriver
-        if False:
+        if True:
             diameter_bit_mains = [3,3.25,3.5,3.75,4,4.25,4.5,4.75,5] 
             for diameter_bit_main in diameter_bit_mains:
                 part = copy.deepcopy(part_default)
