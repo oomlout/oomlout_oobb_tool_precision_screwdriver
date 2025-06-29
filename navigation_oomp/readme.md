@@ -24,6 +24,7 @@
           * [phillips_shape_00_size_extra](project/github/oomlout/oomlout_oobb_tool_precision_screwdriver/label_top_1_width_1_height_1_5_mm_depth/phillips_shape_00_size_extra)
           * [phillips_shape_0_size_extra](project/github/oomlout/oomlout_oobb_tool_precision_screwdriver/label_top_1_width_1_height_1_5_mm_depth/phillips_shape_0_size_extra)
           * [phillips_shape_1_size_extra](project/github/oomlout/oomlout_oobb_tool_precision_screwdriver/label_top_1_width_1_height_1_5_mm_depth/phillips_shape_1_size_extra)
+          * [phillips_shape_2_size_extra](project/github/oomlout/oomlout_oobb_tool_precision_screwdriver/label_top_1_width_1_height_1_5_mm_depth/phillips_shape_2_size_extra)
           * [slotted_shape_0.8_size_extra](project/github/oomlout/oomlout_oobb_tool_precision_screwdriver/label_top_1_width_1_height_1_5_mm_depth/slotted_shape_0.8_size_extra)
           * [slotted_shape_1.2_size_extra](project/github/oomlout/oomlout_oobb_tool_precision_screwdriver/label_top_1_width_1_height_1_5_mm_depth/slotted_shape_1.2_size_extra)
           * [slotted_shape_1.5_size_extra](project/github/oomlout/oomlout_oobb_tool_precision_screwdriver/label_top_1_width_1_height_1_5_mm_depth/slotted_shape_1.5_size_extra)

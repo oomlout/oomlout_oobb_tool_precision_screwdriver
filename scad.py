@@ -164,7 +164,7 @@ def make_scad(**kwargs):
                     ex = {"shape": "slotted", "size": siz}
                     extras.append(ex)
                 #phillips
-                sizes = ["0", "00", "000", "1"]
+                sizes = ["0", "00", "000", "1", "2"]
                 for siz in sizes:
                     ex = {"shape": "phillips", "size": siz}
                     extras.append(ex)
