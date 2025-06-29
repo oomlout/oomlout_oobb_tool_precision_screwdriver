@@ -26,14 +26,13 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: true
+  oomp_run: false
   oomp_size: oomlout
   oomp_type: github
   overwrite: true
   shape: phillips
   siz: '00'
   thickness: 1.5
-  typ: all
   type: oomlout_oobb_tool_precision_screwdriver_label_top
   width: 1
 manufacturer: ''

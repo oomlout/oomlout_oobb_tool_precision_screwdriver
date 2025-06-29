@@ -115,7 +115,7 @@ def make_scad(**kwargs):
         
 
         #screwdriver
-        if True:
+        if False:
             diameter_bit_mains = [2,2.25,2.5,2.75,3,3.25,3.5,3.75,4,4.25,4.5,4.75,5] 
             for diameter_bit_main in diameter_bit_mains:
                 part = copy.deepcopy(part_default)
@@ -291,6 +291,7 @@ def get_label_top(thing, **kwargs):
     siz = kwargs.get("siz", "")
     
     diameter_label = 16
+    depth_hex_piece = 6
 
     #add cylinder
     if True:
@@ -304,9 +305,8 @@ def get_label_top(thing, **kwargs):
         pos1 = copy.deepcopy(pos)         
         pos1[2] += depth/2
         p3["pos"] = pos1
-        
-
         oobb_base.append_full(thing,**p3)
+        
         #oring for curve#
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "positive"
@@ -318,6 +318,7 @@ def get_label_top(thing, **kwargs):
         p3["pos"] = pos1
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
+        
         #cutoff cube
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "negative"
@@ -334,6 +335,9 @@ def get_label_top(thing, **kwargs):
         p3["pos"] = pos1
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
+
+    
+
     
     #add hex piece
     if True:
@@ -345,7 +349,7 @@ def get_label_top(thing, **kwargs):
         p3["sides"] = 6
         rad =  (0.25 * 25.4) / 2  * 1.1546 + clearance# 7.32 hopefully 
         p3["radius"] = rad
-        dep = 6
+        dep = depth_hex_piece
         p3["height"] = dep
         #p3["depth"] = 4
         pos1 = copy.deepcopy(pos)        
@@ -353,6 +357,20 @@ def get_label_top(thing, **kwargs):
         p3["pos"] = pos1
         #p3["m"] = "#"    
         oobb_base.append_full(thing,**p3)
+
+        #add oring to the hexagon to make putting together easier
+        #oring for curve#
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative_negative"
+        p3["shape"] = f"oring"        
+        p3["depth"] = 3
+        p3["id"] = 3
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += -depth_hex_piece
+        p3["pos"] = pos1
+        p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
 
 
     #add shape
