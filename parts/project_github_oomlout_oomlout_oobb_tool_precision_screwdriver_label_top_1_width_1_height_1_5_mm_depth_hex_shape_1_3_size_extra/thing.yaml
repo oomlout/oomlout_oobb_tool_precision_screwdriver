@@ -134,7 +134,7 @@ thing:
       - 0
       - -3
       - 0.5
-      r: 4.5
+      r: 3
       shape: polyg
       sides: 6
       type: negative
@@ -331,7 +331,7 @@ thing:
     - 0
     - -3
     - 0.5
-    radius: 4.5
+    radius: 3
     save_type: all
     shape: polyg
     sides: 6
@@ -379,7 +379,7 @@ thing:
   - oobb_cube_shape_negative_type_0_0_-50_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.3_siz_hex_shape_1.3_size_extra_50_50_50_size
   - polyg_shape_positive_positive_type_0_0_-6_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_6_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.3_siz_hex_shape_1.3_size_extra_6_sides_3.8658550000000003_radius
   - oring_shape_negative_negative_type_3_depth_0_0_-6_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.3_siz_hex_shape_1.3_size_extra_3_id
-  - polyg_shape_n_type_0_-3_0.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.3_siz_hex_shape_1.3_size_extra_6_sides_4.5_radius
+  - polyg_shape_n_type_0_-3_0.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.3_siz_hex_shape_1.3_size_extra_6_sides_3_radius
   - oobb_text_shape_n_type_1_depth_0_3.5_0.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_1.5_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_tool_precision_screwdriver_oomp_color_1.3_siz_hex_shape_1.3_size_extra_1.3_text_segoiui:bold_font_4_size
   description: oomlout oobb tool precision screwdriver label top 1x1x1.5
   description_extra: hex_shape_1.3_size_extra

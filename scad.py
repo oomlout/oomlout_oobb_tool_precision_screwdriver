@@ -382,7 +382,7 @@ def get_label_top(thing, **kwargs):
             p3["type"] = "n"
             p3["shape"] = f"polyg"
             p3["sides"] = 6
-            p3["radius"] = 4.5
+            p3["radius"] = 3
             p3["height"] = depth_indent
             pos1 = copy.deepcopy(pos)       
             pos1[1] += -3 #+ 45
